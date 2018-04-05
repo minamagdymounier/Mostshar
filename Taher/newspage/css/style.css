@@ -32,6 +32,11 @@ body{
 	width: 100%;
 }
 
+.top-news-container .mb-0{
+	height: 49px;
+	overflow: hidden;
+}
+
 .smaller-imgs{
 	height: 196px;
 	width: 100%;
@@ -86,9 +91,11 @@ body{
 }
 
 .date{
+	font-size: 10px;
 	display: inline-block;
-	font-size: 12px;
 	line-height: 2.5;
+	height: 30px;
+	overflow: hidden;
 }
 
 .bottomnews{
