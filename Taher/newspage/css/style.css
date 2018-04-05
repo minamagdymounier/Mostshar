@@ -8,7 +8,7 @@ body{
 
 .topnews{
 	position: relative;
-	height: 605px;
+	height: 400px;
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -38,6 +38,7 @@ body{
 }
 
 .quote{
+	height: 96px;
 	text-align: right;
 }
 
@@ -110,9 +111,9 @@ body{
 }
 
 .footer-button a{
-	border: 1px solid #d1d1d1;
+	border: 1px solid #aaaaaa;
 	text-decoration: none;
-	color: #d1d1d1;
+	color : #aaaaaa !important;
 }
 
 .icons,.footer-button a{
@@ -123,6 +124,7 @@ body{
 
 .icon{
 	font-size: 15px;
+	color : #aaaaaa !important;
 }
 
 .facebook-icon{
@@ -136,6 +138,9 @@ body{
 .bottomnews .content{
 	margin: 0;
 	padding: 10px 10px 4px 10px;
+	height: 56px;
+	color : #aaaaaa !important;
+	overflow: hidden;
 }
 
 .news-footer{
