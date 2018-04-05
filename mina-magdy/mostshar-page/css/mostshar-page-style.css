@@ -52,6 +52,12 @@ body
 	margin-left: 0px 10px !important;
 	text-align: center !important;
 }
+
+.social-media-icons
+{
+	margin-left: 8px;
+}
+
 /*===========================between sections =========send============== */
 
 /*=========================Constant================================*/
@@ -296,7 +302,7 @@ body
 
 .sub-news-row
 {
-	padding: 1% 0px;
+	padding: 0px 0px 10px 0px;
 }
 
 .card-body
