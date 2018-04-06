@@ -1,110 +1,24 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
-    <style type="text/css">
-        .sectionlight{
-            background-color: #ececec;
-            padding: 2rem;
-        }
-        .lineshape {
-            margin-top: 25px;
-
-        }
-        .contactsection{
-            margin-bottom: 40px;
-        }
-
-        ::placeholder{
-            font-family: "Cairo";
-            font-size: 9pt;
-            color: #6b6b6b;
-            display: block;
-            text-align: right;
-        }
-        .ersal{
-            font-family: "Cairo Black";
-            font-size: 10pt;
-            color: #ffffff;
-            display: block;
-            text-align: center;
-            margin: auto;
-        }
-        .twasel-m3na{
-            padding-bottom: 11px;
-        }
-        .pop2{
-            padding-bottom: 4px;
-        }
-        .btn-primary{
-            margin: auto;
-            display: block;
-            width: 18%;
-            background-color: #a09275;
-            border: none;
-        }
-        .btn-primary:hover{
-            margin: auto;
-            display: block;
-            width: 18%;
-            background-color: #7e8b75;
-            border: none;
-        }
-        .etsl-bna{
-            padding-right: 0px;
-        }
-        .etsl-bna img {
-            display:block;
-            margin: auto;
-        }
-        .arabic25{
-            font-family: "Cairo SemiBold";
-            line-height: 1;
-            font-size: 18pt;
-            color: #a09275;
-            display: block;
-            text-align: right;
-        }
-        .arabic20{
-            font-family: "Cairo";
-            line-height: 1;
-            font-size: 13pt;
-            color: #a09275;
-            display: block;
-            text-align: right;
-        }
-        .arabic15{
-            font-family: "Cairo";
-            line-height: 1;
-            font-size: 13pt;
-            color: #929292;
-            display: block;
-            text-align: right;
-        }
-        .sectiondd{
-            padding-right: 0px;
-            padding-bottom: 4rem;
-        }
-        .mapp{
-            background-image: url("assets/Al Azhar Mosque   Google Maps.png");
-        }
-
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600&amp;subset=arabic" rel="stylesheet">
+    <link rel="stylesheet" href="contactUs.css"/>
 </head>
 
 <body>
 <section style="background-color:#ececec; ">
     <div class="container sectionlight">
-        <div class="row contactsection">
+        <div class="row etsl-bna-section">
             <div  class="col-lg-10 d-none d-lg-block lineshape">
                 <div class="container">
                 <img class="img-fluid" style="max-width: 100%;max-height: 100%;" src="assets/Shape%201.png">
                 </div>
             </div>
-            <div class="col-lg-2 col-md-12 etsl-bna">
+            <div class="col-lg-2 col-md-12 etsl-bna-img">
                 <div class="container">
                 <img src="assets/contact.png">
                 </div>
@@ -113,8 +27,8 @@
         <div class="row">
             <div class="col-lg-6 col-md-12">
                 <div class="container">
-                    <div class="twasel-m3na">
-                        <p class="arabic25" dir="rtl">تواصل معنا
+                    <div class="contact-us-contact-info">
+                        <p class="lg-font" dir="rtl">تواصل معنا
                         </p>
                     </div>
                     <form>
@@ -128,49 +42,49 @@
                             <textarea class="form-control" dir="rtl" id="exampleFormControlTextarea1" rows="4" placeholder="الرسالة"></textarea>
                         </div>
                         <div class="container">
-                            <button type="submit" class=" btn btn-primary"><p dir="rtl" class="ersal">إرسال</p></button>
+                            <button type="submit" class=" btn btn-primary"><p dir="rtl" class="send-btn">إرسال</p></button>
                         </div>
                     </form>
                 </div>
 
             </div>
             <div class="col-lg-6 col-md-12">
-                <div class="container sectiondd">
+                <div class="container contact-info-section">
 
-                    <div class="twasel-m3na">
-                        <p class="arabic25" dir="rtl">بيانات الإتصال
+                    <div class="contact-us-contact-info">
+                        <p class="lg-font" dir="rtl">بيانات الإتصال
                         </p>
                     </div>
                     <div class="headers">
-                        <p class="arabic20" dir="rtl">البريد الإلكتروني:
+                        <p class="sm-brown-font" dir="rtl">البريد الإلكتروني:
                         </p>
                     </div>
                     <div class="bodies">
-                        <p class="arabic15" dir="rtl">el_azhar@mail.com
+                        <p class="sm-grey-font" dir="rtl">el_azhar@mail.com
                         </p>
                     </div>
                     <div class="headers">
-                        <p class="arabic20" dir="rtl">العنوان:
+                        <p class="sm-brown-font" dir="rtl">العنوان:
                         </p>
                     </div>
                     <div class="bodies">
-                        <p class="arabic15" dir="rtl">الدور السادس - مبنى مشيخه الازهر - بجوار الحديقه - القاهرة
+                        <p class="sm-grey-font" dir="rtl">الدور السادس - مبنى مشيخه الازهر - بجوار الحديقه - القاهرة
                         </p>
                     </div>
                     <div class="headers">
-                        <p class="arabic20" dir="rtl">تليفون:
+                        <p class="sm-brown-font" dir="rtl">تليفون:
                         </p>
                     </div>
                     <div class="bodies">
-                        <p class="arabic15" dir="rtl">29222222 - 29333333
+                        <p class="sm-grey-font" dir="rtl">29222222 - 29333333
                         </p>
                     </div>
                     <div class="headers">
-                        <p class="arabic20" dir="rtl">الموقع:
+                        <p class="sm-brown-font" dir="rtl">الموقع:
                         </p>
                     </div>
                     <div class="bodies">
-                        <p class="arabic15" dir="rtl">www.alemamalakbar.eg
+                        <p class="sm-grey-font" dir="rtl">www.alemamalakbar.eg
                         </p>
                     </div>
 
@@ -184,8 +98,8 @@
             </div>
             <div class="col-lg-3 col-md-12">
 
-                    <div class="twasel-m3na2">
-                        <p class="arabic25" dir="rtl">موقعنا
+                    <div class="contact-us-contact-info2">
+                        <p class="lg-font" dir="rtl">موقعنا
                         </p>
                     </div>
             </div>

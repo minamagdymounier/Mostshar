@@ -1,0 +1,54 @@
+.sectionlight{
+    background-color: #FFFFFF;
+}
+.main-navbar-font{
+    font-family: "Cairo SemiBold";
+    line-height: 1;
+    font-size: 13pt;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    text-align: right;
+}
+.navbar-font{
+    font-family: "Cairo SemiBold";
+    line-height: 1;
+    font-size: 13pt;
+    color: #a6a6a6;
+    display: block;
+    text-align: right;
+}
+.btn-secondary{
+    margin: auto;
+    display: block;
+    width: 100%;
+    background-color: #a09275;
+    border: 1px solid rgb(160,146,117);
+    border-radius: 12px;
+}
+.btn-secondary:hover{
+    margin: auto;
+    display: block;
+    width: 100%;
+    background-color: #a09275;
+    border: 1px solid rgb(160,146,117);
+    border-radius: 12px;
+}
+.nvbar-right{
+    padding-left: 25px;
+}
+.search-icon{
+    padding-left: 11px;
+}
+.icons{
+    color:#a09275;
+    text-shadow:2px 2px 4px #000000;
+    float: right;
+    padding-bottom: 5px;
+}
+.icons:hover{
+    color:#7e8b75;
+    text-shadow:2px 2px 4px #000000;
+    float: right;
+    padding-bottom: 5px;
+}
