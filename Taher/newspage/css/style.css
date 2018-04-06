@@ -139,12 +139,19 @@ body{
 	color : #aaaaaa !important;
 }
 
-.facebook-icon{
-	padding-left:8%;
+.icon-link{
+	text-decoration: none;
 }
 
-.twitter-icon{
-	padding-left:14%;
+.fb-link{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-right: 5%;
+}
+
+.tw-link{
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .bottomnews .content{
