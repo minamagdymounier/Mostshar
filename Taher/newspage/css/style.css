@@ -11,6 +11,9 @@ body{
 	height: 500px;
 	padding-left: 0px;
 	padding-right: 0px;
+	border: 0.5px solid #d1d1d1;
+	box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
 }
 
 .bottomnews{
@@ -82,7 +85,6 @@ body{
 	opacity: 0.902;
 }
 
-
 .topnews .blockquote {
 	width: 77%;
 	max-height: 100%;
@@ -109,6 +111,7 @@ body{
 	display: inline-block;
 	overflow: hidden;
 	border: 1px solid #d1d1d1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	border-radius: 3px;
 }
 
@@ -119,14 +122,16 @@ body{
 
 .footer-button a{
 	border: 1px solid #aaaaaa;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
 	text-decoration: none;
 	color : #aaaaaa !important;
+	padding: 4%
 }
 
 .icons,.footer-button a{
 	display: inline-block;
 	vertical-align: middle;
-	padding: 5px;
 }
 
 .icon{
@@ -144,7 +149,7 @@ body{
 
 .bottomnews .content{
 	margin: 0;
-	padding: 10px 10px 4px 10px;
+	padding: 3.8% 3.8% 1.8% 3.8%;
 	height: 56px;
 	color : #aaaaaa !important;
 	overflow: hidden;
@@ -152,6 +157,6 @@ body{
 
 .news-footer{
 	width: 100%;
-	padding: 4px 10px 10px 10px;
+	padding: 1.8% 3.8% 3.8% 3.8%;
 }
 
