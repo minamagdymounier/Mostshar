@@ -1,12 +1,7 @@
-/*drark-gold : #a09275*/
-/*mostshar-news-background-color : #ececec*/
-/*mostshar-new-writing-color : #e8e8e8*/
-/*mostshar-new-dark-writing-color : #aaaaaa*/
-
-
 body
 {
 	font-family: Cairo, sans-serif !important;
+	background-color: #ececec !important;
 }
 
 .card-img-top
@@ -16,49 +11,77 @@ body
 }
 
 
-/*===========================between sections =========start============== */
-.line
-{
-	margin-top: auto;
-	margin-bottom: auto;
-	border-top: 1px solid #aaaaaa;
+
+/*===========================nav bar=================================*/
+
+
+.sectionlight{
+	background-color: #FFFFFF;
+}
+.main-navbar-font{
+	font-family: "Cairo SemiBold";
+	line-height: 1;
+	font-size: 13pt;
+	color: #ffffff;
+	display: block;
+	margin: auto;
+	text-align: right;
+}
+.navbar-font{
+	font-family: "Cairo SemiBold";
+	line-height: 1;
+	font-size: 13pt;
+	color: #a6a6a6;
+	display: block;
+	text-align: right;
+}
+.main-navbar{
+	border: 1px solid rgb(160,146,117);
+	border-radius: 5px;
+
+}
+.btn-secondary{
+	margin: auto;
+	display: block;
+	width: 100%;
+	background-color: #a09275;
+	border: 1px solid rgb(160,146,117);
+	border-radius: 12px;
+}
+.btn-secondary:hover{
+	margin: auto;
+	display: block;
+	width: 100%;
+	background-color: #a09275;
+	border: 1px solid rgb(160,146,117);
+	border-radius: 12px;
+}
+.nvitem{
+	padding-left: 25px;
+}
+.naavitem{
+	padding-left: 10px;
+}
+.naavitemm{
+	padding-left: 20px;
+}
+.icons{
+	color:#a09275;
+	text-shadow:2px 2px 4px #000000;
+	float: right;
+	padding-bottom: 5px;
+}
+.icons:hover{
+	color:#7e8b75;
+	text-shadow:2px 2px 4px #000000;
+	float: right;
+	padding-bottom: 5px;
 }
 
 
-.align-vertically-left
-{
-	height: 90px;
-	line-height: 70px;
-	text-align: center;
-}
 
-.align-vertically-right
-{
-	height: 90px;
-	line-height: 90px;
-	text-align: center;
-}
 
-.line
-{
-	border-top: 1px solid #aaaaaa;
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-.flex-outer
-{
-	padding: 0px 3px !important;
-	margin-left: 0px !important;
-	text-align: center !important;
-}
-
-.social-media-icons
-{
-	margin-left: 8px;
-}
-
-/*===========================between sections =========send============== */
+/*=============================nav bar end=============================*/
 
 /*=========================Constant================================*/
 .bold
@@ -131,17 +154,21 @@ body
 	margin-bottom: auto;
 }
 
+.card
+{
+	margin: 10px 0px;
+}
 
 
 /*=========================Constant================================*/
 
-/*===========================search-section==========================*/
-.search-section
-{
-	text-align: right;
-	margin: 2% 0px;
-}
 
+/*============================News Section Start====================================*/
+
+.social-media-icons
+{
+	
+}
 
 .main-news-card
 {
@@ -172,16 +199,15 @@ body
 	font-weight: bolder;
 	max-height: 81px;
 	overflow: hidden;
-	position: absolute;
 }
 
 .sub-news
 {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bolder;
 	max-height: 40px;
 	overflow: hidden;
-	position: absolute;
+
 }
 
 .news-title
@@ -200,63 +226,20 @@ body
 	overflow: hidden;
 }
 
-.search-margin
+.bio-card-footer
 {
-	margin: 8px 0px; 
+	padding: 6px 2px;
+	margin:0px;
 }
 
-..social-media-icons
-{
-	margin-left: 8px;
-}
+/*============================News Section Start====================================*/
 
-
-/*===============================Qutation start=================================*/
-
-.qoutation-section
-{
-	background-image: url("../img/mosque.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 100%;
-}
-
-.qouts
-{
-	font-size: 20px;
-	text-align: right;
-	font-family: cairo;
-	color:  #aaaaaa;
-}
-
-.qouts-author
-{
-	font-size: 15px;
-	text-align: left;	
-	font-style: oblique;
-}
-
-.quots-parent
-{
-	max-height: 230px;
-	overflow: hidden;
-}
-
-.quotes-position
-{
-	padding-top: 15%;
-}
-
-/*==============================Qutation End==================================== */
 
 /*================================Footer Start=====================================*/
 .footer
 {
 	padding: 3% 0% 2% 0%;
 	background-color: #232323;
-
 }
 
 .footer-logo-parent
