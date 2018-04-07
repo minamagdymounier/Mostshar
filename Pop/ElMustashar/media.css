@@ -1,6 +1,6 @@
 .sectionlight{
     background-color: #ececec;
-    padding: 2rem;
+    padding: 2rem 2rem 0rem 2rem;
 
 }
 .sectionlighter{
@@ -38,6 +38,12 @@
     color: white;
     text-align: right;
     display: block;
+}
+.loadmore{
+    font-family: "Cairo SemiBold";
+    font-size: 20pt;
+    color: #a09275;
+    text-align: center;
 }
 .media-item-font{
     font-family: Cairo;

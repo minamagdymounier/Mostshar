@@ -1,4 +1,4 @@
-.sectionlight{
+.nav-sectionlight{
     background-color: #FFFFFF;
 }
 .main-navbar-font{
@@ -38,7 +38,7 @@
     padding-left: 25px;
 }
 .search-icon{
-    padding-left: 11px;
+    padding-left: 4px;
 }
 .icons{
     color:#a09275;
