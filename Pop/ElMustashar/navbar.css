@@ -1,4 +1,4 @@
-.sectionlight{
+.nav-sectionlight{
     background-color: #FFFFFF;
 }
 .main-navbar-font{
@@ -38,17 +38,15 @@
     padding-left: 25px;
 }
 .search-icon{
-    padding-left: 11px;
+    padding-left: 4px;
 }
 .icons{
     color:#a09275;
-    text-shadow:2px 2px 4px #000000;
     float: right;
     padding-bottom: 5px;
 }
 .icons:hover{
     color:#7e8b75;
-    text-shadow:2px 2px 4px #000000;
     float: right;
     padding-bottom: 5px;
 }
