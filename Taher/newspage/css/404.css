@@ -145,6 +145,27 @@ body {
 }
 
 
+@media screen and (max-width: 2560px) {
+    /* For medium resolution: */
+    .nav .nv-search {
+        margin-left: 6vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /* For medium resolution: */
+    .nav .nv-search {
+        margin-left: 8vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* For medium resolution: */
+    .nav .nv-search {
+        margin-left: 30vw;
+    }
+}
+
 @media all and (max-width: 480px) {
   .nv-search {
     flex-basis: 100%!important;
