@@ -18,6 +18,9 @@
     display: block;
     text-align: right;
 }
+.naavitem{
+    margin-top: 6px;
+}
 .btn-secondary{
     margin: auto;
     display: block;
@@ -35,10 +38,11 @@
     border-radius: 12px;
 }
 .nvbar-right{
-    padding-left: 25px;
+    margin-left: 25px;
 }
 .search-icon{
-    padding-left: 4px;
+    margin-left: 4px;
+    margin-top: 6px;
 }
 .icons{
     color:#a09275;
@@ -48,5 +52,32 @@
 .icons:hover{
     color:#7e8b75;
     float: right;
+    padding-bottom: 5px;
+}
+::placeholder{
+    font-family: "Cairo";
+    font-size: 9pt;
+    color: #6b6b6b;
+    display: block;
+    text-align: right;
+}
+.searchclass{
+    width: 70px;
+    border: solid 1px #ccc;
+    padding: 9px 20px 9px 20px;
+    border-radius: 1em;
+    transition: all .5s;
+}
+.searchclass2{
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+    border-radius: 1em;
+    width: 180px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+    transition: all .5s;
+}
+.icons{
+    color:#a09275;
     padding-bottom: 5px;
 }
