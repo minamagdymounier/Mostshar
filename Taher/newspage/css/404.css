@@ -1,0 +1,160 @@
+body {
+	font-family: "Cairo";
+	height: 100vh!important;
+    overflow: auto!important;
+    background-image: url(../../../mina-magdy/mostshar-page/img/slider/mosque.png);
+    background-repeat: no-repeat;
+   	background-size: 100% 100%;
+}
+
+.horz-header{
+	height: 5px;
+	background-color: #a09275;
+}
+
+.icon-color-1{
+	color: #b2b2b2;
+}
+
+.icon-color-2{
+	color: #a09275;
+}
+
+.mynavbar{
+	display: flex;
+}
+
+.mynavbar a{
+	text-decoration: none;
+}
+
+.nav .nv-search{
+	flex: 1;
+	margin-left: 12vw;
+}
+
+.search-input{
+	text-align: right;
+	border-radius: 20px 0 0 20px!important;
+	border-right: 0;
+}
+
+.search-icon{
+	border-radius: 0 20px 20px 0!important;
+}
+
+.input-group-text{
+	margin-left: -10px;
+	border-left: 0;
+	background-color: #ffffff;
+}
+
+.navbar-section{
+	background-color: #ffffff;
+}
+
+.error-container{
+	height: 60vh;
+	text-align: center;
+}
+
+.error-p{
+	width: 25%;
+	margin: 0 auto 6vh auto;
+	color: #8a8a8a;
+}
+
+.error-p-title{
+	font-size: 18px
+}
+
+.error-h{
+	color: #a09275;
+	font-weight: bold;
+}
+
+.error-header{
+	font-size: 300px;
+}
+
+@media screen and (max-width: 1360px) {
+    /* For medium resolution: */
+    .error-header{
+        font-size: 230px!important;
+    }
+    .error-footer{
+    	font-size: 12.2px!important;
+    }
+    .error-p-title{
+    	font-size: 13.8px!important;	
+    }
+	.error-p-description{
+    	font-size: 9.8px!important;	
+    }    
+}
+
+@media screen and (max-width: 1100px) {
+    /* For medium resolution: */
+    .error-header{
+        font-size: 160px!important;
+    }
+    .error-footer{
+    	font-size: 8.5px!important;
+    }
+    .error-p-title{
+    	font-size: 9.6px!important;	
+    }
+	.error-p-description{
+    	font-size: 6.8px!important;	
+    }    
+}
+
+@media screen and (max-width: 960px) {
+    /* For medium resolution: */
+    .error-header{
+        font-size: 90px!important;
+    }
+    .error-footer{
+    	font-size: 6px!important;
+    }
+    .error-p-title{
+    	font-size: 7.5px!important;	
+    }
+	.error-p-description{
+    	font-size: 5px!important;	
+    }    
+}
+
+@media screen and (max-width: 650px) {
+    /* For medium resolution: */
+    .error-p{
+    	width: 100%;
+    }
+    .error-header{
+        font-size: 80px!important;
+    }
+    .error-footer{
+    	font-size: 6px!important;
+    }
+    .error-p-title{
+    	font-size: 7.5px!important;	
+    }
+	.error-p-description{
+    	font-size: 5px!important;	
+    }    
+}
+
+
+@media all and (max-width: 480px) {
+  .nv-search {
+    flex-basis: 100%!important;
+    order: 1!important;
+  }
+}
+
+@media all and (min-width: 2700px) {
+  .nav .nv-search {
+    margin-left: 3vw;
+  }
+}
+

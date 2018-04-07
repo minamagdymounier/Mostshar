@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Slick Playground</title>
@@ -6,128 +6,11 @@
     <link rel="stylesheet" href="OwlCarousel2-2.3.3/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="OwlCarousel2-2.3.3/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.css"/>
+    <link href="bootstrap-4.0.0-dist/css/bootstrap-grid.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600&amp;subset=arabic" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-    
-    <style type="text/css">
-        .sectionlight{
-            background-color: #ececec;
-            padding: 2rem;
+    <link rel="stylesheet" href="media.css"/>
 
-        }
-        .sectionlighter{
-            background-color: #ffffff;
-            padding: 1.5rem;
-        }
-        .popos{
-            background-color: rgba(153,142,117,0.9);
-            padding: 0.75rem 0.3rem 0.3rem 0.3rem;
-            display: none;
-            width: 100%;
-            height: 40%;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            margin-right:auto ;
-            margin-left: auto;
-            border: 1px solid rgb(153,142,117);
-            border-radius: 1px;
-        }
-        .arabic25{
-            font-family: Cairo;
-            line-height: 1;
-            font-size: 10pt;
-            font-weight: bold;
-            color: white;
-            display: block;
-            text-align: right;
-        }
-        .arabic12{
-            margin-right: 10px;
-            font-family: Cairo;
-            font-size: 8pt;
-            font-weight: lighter;
-            color: white;
-            text-align: right;
-            display: block;
-        }
-        .arabic17{
-            font-family: Cairo;
-            font-size: 10pt;
-            font-weight: 600;
-            color: #969696;
-            text-align: right;
-            display: block;
-        }
-        .arabic40{
-            font-family: Cairo;
-            font-size: 20pt;
-            font-weight: 600;
-            color: #a09275;
-            text-align: center;
-            display: block;
-        }
-
-        .vimg{
-
-        }
-        .prev{
-            margin-top: 12px;
-            margin-right: 15px;
-
-        }
-        .next{
-            margin-top: 12px;
-            margin-left: 15px;
-
-        }
-        .medianews{
-            margin-bottom: 4px;
-            background: none;
-            border: 0px;
-            width: 100%;
-            margin-right:auto ;
-            margin-left: auto;
-            display: block;
-            max-width: 18rem;
-        }
-        .nopaddincard{
-            padding: 1rem 0.2rem 1.25rem 1.25rem;
-
-        }
-        .conntain {
-            position: relative;
-
-        }
-        .conntain .display-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: none;
-            color: #FFF;
-        }
-        .conntain:hover .display-overlay {
-            display: block;
-            background: rgba(0, 0, 0, .6);
-
-        }
-        .itemphoto{
-            padding: 3.8rem 2.2rem 6rem 6rem;
-        }
-        .itemvideo{
-            padding: 4rem 2rem 6rem 7rem;
-
-        }
-        .owl-carousel .owl-item img{
-            width: auto!important;
-
-        }
-
-
-    </style>
 </head>
 <body>
 <div class="container sectionlighter">
@@ -139,18 +22,18 @@
                 <div class="item card item-card" style="max-width: 40rem;max-height: 18rem">
                     <img class="card-img-top img-fluid" src="assets/mustashar.png" alt="Card image cap" style="max-width: 100%;max-height: 100%;">
 
-                    <div class="card-body popos">
+                    <div class="card-body slider-item">
                         <div class="row">
                             <div class="col-md-3">
                                 <img class="img-fluid" src="assets/Video.png"/>
                             </div>
                             <div class="col-md-9">
                                 <div class="container" style="max-height: 44%;overflow: hidden;margin-bottom:4px ">
-                                    <p class="arabic25" dir="rtl">قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب
+                                    <p class="slider-font" dir="rtl">قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب
                                     </p>
 
                                 </div>
-                                <p class="container arabic12" dir="rtl">5 يوليه 2016 </p>
+                                <p class="container slider-date-font" dir="rtl">5 يوليه 2016 </p>
 
                             </div>
                         </div>
@@ -161,18 +44,18 @@
                 <div class="item card item-card" style="max-width: 40rem;max-height: 18rem">
                     <img class="card-img-top img-fluid" src="assets/mustashar.png" alt="Card image cap">
 
-                    <div class="card-body popos">
+                    <div class="card-body slider-item">
                         <div class="row">
                             <div class="col-md-3">
                                 <img class="vimg img-fluid" src="assets/Video.png "/>
                             </div>
                             <div class="col-md-9">
                                 <div class="container" style="max-height: 44%;overflow: hidden;margin-bottom:4px ">
-                                    <p class="arabic25" dir="rtl"> مع الشباب
+                                    <p class="slider-font" dir="rtl"> مع الشباب
                                     </p>
 
                                 </div>
-                                <p class="container arabic12" dir="rtl">5 يوليه 2016 </p>
+                                <p class="container slider-date-font" dir="rtl">5 يوليه 2016 </p>
                             </div>
                         </div>
 
@@ -182,18 +65,18 @@
                 <div class="item card item-card" style="max-width: 40rem;max-height: 18rem">
                     <img class="card-img-top img-fluid" src="assets/mustashar.png" alt="Card image cap">
 
-                    <div class="card-body popos">
+                    <div class="card-body slider-item">
                         <div class="row">
                             <div class="col-md-3">
                                 <img class="vimg img-fluid" src="assets/Video.png" />
                             </div>
                             <div class="col-md-9">
                                 <div class="container" style="max-height: 44%;overflow: hidden;margin-bottom:4px ">
-                                    <p class="arabic25" dir="rtl">قال فضيلة الإمام الأكبر: إن ع الشباب
+                                    <p class="slider-font" dir="rtl">قال فضيلة الإمام الأكبر: إن ع الشباب
                                     </p>
 
                                 </div>
-                                <p class="container arabic12" dir="rtl">5 يوليه 2016 </p>
+                                <p class="container slider-date-font" dir="rtl">5 يوليه 2016 </p>
                             </div>
                         </div>
 
@@ -203,18 +86,18 @@
                 <div class="item card item-card" style="max-width: 40rem;max-height: 18rem">
                     <img class="card-img-top img-fluid" src="assets/mustashar.png" alt="Card image cap">
 
-                    <div class="card-body popos">
+                    <div class="card-body slider-item">
                         <div class="row">
                             <div class="col-md-3">
                                 <img class="vimg img-fluid" src="assets/Video.png" />
                             </div>
                             <div class="col-md-9">
                                 <div class="container" style="max-height: 44%;overflow: hidden;margin-bottom:4px ">
-                                    <p class="arabic25" dir="rtl"> أسلوب الحوار مع الشباب
+                                    <p class="slider-font" dir="rtl"> أسلوب الحوار مع الشباب
                                     </p>
 
                                 </div>
-                                <p class="container arabic12" dir="rtl">5 يوليه 2016 </p>
+                                <p class="container slider-date-font" dir="rtl">5 يوليه 2016 </p>
                             </div>
                         </div>
 
@@ -226,122 +109,121 @@
         </div>
 
     </div>
-
 </div>
 <section style="background-color:#ececec; ">
     <div class="container sectionlight">
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews">
-                    <div class="conntain">
+                <div class="card card-style">
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews">
-                    <div class="conntain">
+                <div class="card card-style">
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/Video.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews">
-                    <div class="conntain">
+                <div class="card card-style">
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/Video.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/Video.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
@@ -350,120 +232,120 @@
     </div>
 </section>
 
-<section style="background-color:#ececec; ">
+<section style="background-color:#ececec;">
     <div class="container sectionlight">
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews">
-                    <div class="conntain">
+                <div class="card card-style">
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews">
-                    <div class="conntain">
+                <div class="card card-style">
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/Video.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews">
-                    <div class="conntain">
+                <div class="card card-style">
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/Video.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/Video.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <div class="card medianews" >
-                    <div class="conntain">
+                <div class="card card-style" >
+                    <div class="card-hover-overlay">
                         <img class="card-img-top " src="assets/Mustashar2.png" alt="Card image cap">
                         <div class="display-overlay">
                             <img class="itemphoto" src="assets/photo.png">
                         </div>
                     </div>
 
-                    <div class="card-body nopaddincard">
-                        <p class="arabic17" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
+                    <div class="card-body card-text-nopadding">
+                        <p class="media-item-font" dir="rtl">كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.</p>
                     </div>
                 </div>
             </div>
@@ -474,79 +356,8 @@
 
 <script src="jquery.js"></script>
 <script src="OwlCarousel2-2.3.3/dist/owl.carousel.min.js"></script>
+<script src="media.js"></script>
 
-<script type="text/javascript">
-    var prevcurr=100000;
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        nav:true,
-        margin:0,
-        singleItem:true,
-        addClassActive:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            800:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        },
-        mouseDrag:false,
-        dots:false,
-        navText: ["<a role='button' class='prev'><img src='assets/prev.png'/></a>","<a role='button' class='next'><img src='assets/next.png'/></a>"],
-        autoplay:false,
-        autoplayTimeout:3000,
-        autoplayHoverPause:true
-    })
-
-    $('.owl-carousel').on('changed.owl.carousel',function(property){
-        var current = property.item.index+1;
-        $(".owl-item").find("img").css("opacity", "0.4");
-        $(".owl-item").find("div").find(".popos").css("display", "none");
-        $(".owl-item").eq(current).find("img").css("opacity", "1");
-        $(".owl-item").eq(current).find("div").find(".popos").css("display", "block");
-        var width = window.innerWidth;
-        var height = window.innerHeight;
-        if(width < 1000) {
-            $(".owl-item").find("img").css("opacity", "1");
-            $(".owl-item").find("div").find(".popos").css("display", "block");
-        }
-        console.log('Image current is ' + current);
-    });
-
-
-    $(document).ready(function(){
-        $(".conntain").hover(function(){
-                var index = $(this).index();
-                $(".conntain").eq(index).find("div").find(".display-overlay").css("display", "block");
-                console.log(index);
-            },
-            function(){
-                var index = $(this).index();
-                $(".conntain").eq(index).find("div").find(".display-overlay").css("display", "none");
-                console.log("pop");
-            });
-    });
-    $(".owl-item.active").find("img").css("opacity", "0.4");
-    $(".owl-item.active").eq(1).find("img").css("opacity", "1");
-    $(".owl-item.active").eq(1).find("div").find(".popos").css("display", "block");
-    var width = window.innerWidth;
-    console.log("passed");
-    if(width < 1000) {
-        $(".owl-item.active").find("img").css("opacity", "1");
-        $(".owl-item.active").find("div").find(".popos").css("display", "block");
-        console.log("<1000");
-    }
-
-
-
-</script>
 
 </body>
 </html>
