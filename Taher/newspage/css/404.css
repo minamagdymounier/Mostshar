@@ -80,6 +80,9 @@ body {
 
 @media all and (max-width: 1360px) {
     /* For medium resolution: */
+    .error-p{
+        width: 35%;
+    }
     .error-header{
         font-size: 230px!important;
     }
@@ -90,74 +93,102 @@ body {
     	font-size: 13.8px!important;	
     }
 	.error-p-description{
-    	font-size: 9.8px!important;	
-    }    
+    	font-size: 11px!important;	
+    }
+    .error-container{
+        margin-top: 4%;
+    }
 }
 
 @media all and (max-width: 1100px) {
     /* For medium resolution: */
+    .error-p{
+        width: 60%;
+    }
     .error-header{
         font-size: 160px!important;
     }
     .error-footer{
-    	font-size: 8.5px!important;
+    	font-size: 10px!important;
     }
     .error-p-title{
-    	font-size: 9.6px!important;	
+    	font-size: 10px!important;	
     }
 	.error-p-description{
-    	font-size: 6.8px!important;	
+    	font-size: 9px!important;	
+    }
+    .error-container{
+        margin-top: 10%;
     }    
 }
 
 @media all and (max-width: 960px) {
     /* For medium resolution: */
+    
     .error-header{
-        font-size: 90px!important;
+        font-size: 160px!important;
     }
     .error-footer{
-    	font-size: 6px!important;
+    	font-size: 10px!important;
     }
     .error-p-title{
-    	font-size: 7.5px!important;	
+    	font-size: 10px!important;	
     }
 	.error-p-description{
-    	font-size: 5px!important;	
+    	font-size: 9px!important;	
     }    
 }
 
 @media all and (max-width: 650px) {
-    /* For medium resolution: */
-    .error-p{
-    	width: 100%;
-    }
+    /* For small resolution: */
     .error-header{
-        font-size: 80px!important;
+        font-size: 160px!important;
     }
     .error-footer{
-    	font-size: 6px!important;
+        font-size: 10px!important;
     }
     .error-p-title{
-    	font-size: 7.5px!important;	
+        font-size: 10px!important;  
     }
-	.error-p-description{
-    	font-size: 5px!important;	
+    .error-p-description{
+        font-size: 9px!important;   
     }
     .error-container{
-        margin-top: 30%;
+        margin-top: 10%;
+    } 
+}
+
+@media all and (max-width: 320px) {
+    /* For mobile resolution: */
+    .error-p{
+        width: 60%;
+    }
+    .error-header{
+        font-size: 140px!important;
+    }
+    .error-footer{
+        font-size: 9px!important;
+    }
+    .error-p-title{
+        font-size: 9px!important;  
+    }
+    .error-p-description{
+        font-size: 8px!important;   
+    }
+    .error-container{
+        margin-top: 10%;
     }
 }
 
 @media all and (max-width: 480px) {
-
+    /* For mobile resolution align each item in a row */
   .nv-search {
     flex-basis: 100%!important;
   }
 }
 
-
 @media all and (max-width: 630px) {
-    /* For medium resolution: */
+    /* For small resolution: */
     .nav .nv-search {
         margin-left: 30vw;
     }
@@ -178,13 +209,14 @@ body {
 }
 
 @media all and (min-width: 2560px) {
-    /* For medium resolution: */
+    /* For large resolution: */
     .nav .nv-search {
         margin-left: 6vw;
     }
 }
 
 @media all and (min-width: 2700px) {
+    /* For large resolution: */
   .nav .nv-search {
     margin-left: 3vw;
   }
