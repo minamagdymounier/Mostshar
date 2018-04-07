@@ -64,7 +64,7 @@
 .searchclass{
     width: 70px;
     border: solid 1px #ccc;
-    padding: 9px 20px 9px 20px;
+    padding: 9px 24px 9px 20px;
     border-radius: 1em;
     transition: all .5s;
 }
@@ -80,4 +80,12 @@
 .icons{
     color:#a09275;
     padding-bottom: 5px;
+}
+.nav-icons{
+    padding-top: 20px;
+    margin-right: 140px
+}
+.horz-header{
+    height: 5px;
+    background-color: #a09275;
 }
