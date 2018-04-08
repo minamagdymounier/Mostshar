@@ -1,3 +1,4 @@
+/* ================= Constants ================= */
 body {
 	font-family: "Cairo";
 	height: 100vh!important;
@@ -6,6 +7,8 @@ body {
     background-repeat: no-repeat;
    	background-size: 100% 100%;
 }
+
+/* ================= Navbar Section ================= */
 
 .horz-header{
 	height: 5px;
@@ -21,7 +24,7 @@ body {
 }
 
 .collapse .navbar-collapse .mynavbar{
-	display: flex;
+	display: flex!important;
 }
 
 .mynavbar a{
@@ -54,6 +57,8 @@ body {
 	background-color: #ffffff;
 }
 
+/* ================= Error Section ================= */
+
 .error-container{
 	height: 60vh;
 	text-align: center;
@@ -78,85 +83,7 @@ body {
 	font-size: 300px;
 }
 
-@media all and (max-width: 1360px) {
-    /* For medium resolution: */
-    .error-p{
-        width: 35%;
-    }
-    .error-header{
-        font-size: 230px!important;
-    }
-    .error-footer{
-    	font-size: 12.2px!important;
-    }
-    .error-p-title{
-    	font-size: 13.8px!important;	
-    }
-	.error-p-description{
-    	font-size: 11px!important;	
-    }
-    .error-container{
-        margin-top: 4%;
-    }
-}
-
-@media all and (max-width: 1100px) {
-    /* For medium resolution: */
-    .error-p{
-        width: 60%;
-    }
-    .error-header{
-        font-size: 160px!important;
-    }
-    .error-footer{
-    	font-size: 10px!important;
-    }
-    .error-p-title{
-    	font-size: 10px!important;	
-    }
-	.error-p-description{
-    	font-size: 9px!important;	
-    }
-    .error-container{
-        margin-top: 10%;
-    }    
-}
-
-@media all and (max-width: 960px) {
-    /* For medium resolution: */
-    
-    .error-header{
-        font-size: 160px!important;
-    }
-    .error-footer{
-    	font-size: 10px!important;
-    }
-    .error-p-title{
-    	font-size: 10px!important;	
-    }
-	.error-p-description{
-    	font-size: 9px!important;	
-    }    
-}
-
-@media all and (max-width: 650px) {
-    /* For small resolution: */
-    .error-header{
-        font-size: 160px!important;
-    }
-    .error-footer{
-        font-size: 10px!important;
-    }
-    .error-p-title{
-        font-size: 10px!important;  
-    }
-    .error-p-description{
-        font-size: 9px!important;   
-    }
-    .error-container{
-        margin-top: 10%;
-    } 
-}
+/* ================= changes depending on screen resolutions ================= */
 
 @media all and (max-width: 320px) {
     /* For mobile resolution: */
@@ -194,6 +121,42 @@ body {
     }
 }
 
+@media all and (max-width: 650px) {
+    /* For small resolution: */
+    .error-header{
+        font-size: 160px!important;
+    }
+    .error-footer{
+        font-size: 10px!important;
+    }
+    .error-p-title{
+        font-size: 10px!important;  
+    }
+    .error-p-description{
+        font-size: 9px!important;   
+    }
+    .error-container{
+        margin-top: 10%;
+    } 
+}
+
+@media all and (max-width: 960px) {
+    /* For medium resolution: */
+    
+    .error-header{
+        font-size: 160px!important;
+    }
+    .error-footer{
+        font-size: 10px!important;
+    }
+    .error-p-title{
+        font-size: 10px!important;  
+    }
+    .error-p-description{
+        font-size: 9px!important;   
+    }    
+}
+
 @media all and (max-width: 992px) {
     /* For medium resolution: */
     .nav .nv-search {
@@ -201,11 +164,52 @@ body {
     }
 }
 
+@media all and (max-width: 1100px) {
+    /* For medium resolution: */
+    .error-p{
+        width: 60%;
+    }
+    .error-header{
+        font-size: 160px!important;
+    }
+    .error-footer{
+        font-size: 10px!important;
+    }
+    .error-p-title{
+        font-size: 10px!important;  
+    }
+    .error-p-description{
+        font-size: 9px!important;   
+    }
+    .error-container{
+        margin-top: 10%;
+    }    
+}
+
 @media all and (max-width: 1360px) {
     /* For medium resolution: */
+    .error-p{
+        width: 35%;
+    }
+    .error-header{
+        font-size: 230px!important;
+    }
+    .error-footer{
+    	font-size: 12.2px!important;
+    }
+    .error-p-title{
+    	font-size: 13.8px!important;	
+    }
+	.error-p-description{
+    	font-size: 11px!important;	
+    }
+    .error-container{
+        margin-top: 4%;
+    }
     .nav .nv-search {
         margin-left: 12vw;
     }
+
 }
 
 @media all and (min-width: 2560px) {

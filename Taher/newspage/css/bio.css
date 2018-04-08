@@ -18,6 +18,7 @@ body{
 }
 
 .title{
+	margin-top: 5vh;
 	height: 17px;
 	overflow: hidden;
 	font-size: 14px;

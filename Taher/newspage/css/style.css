@@ -1,9 +1,28 @@
+/* ==========================   Constants   ========================== */
+
 *{
 	box-sizing: border-box;
 }
 body{
 	background-color: #e1d0d0;
 	font-family: 'Cairo';
+}
+
+.imgs{
+	height: 100%;
+	width: 100%;
+}
+
+.quote{
+	height: 96px;
+	text-align: right;
+}
+
+/* ==========================   navbar Section   ========================== */
+
+.horz-header{
+	height: 5px;
+	background-color: #a09275;
 }
 
 .topnews{
@@ -16,23 +35,8 @@ body{
 	border-radius: 2px;
 }
 
-.bottomnews{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
 .top-news-container{
 	margin-bottom: 25px;
-}
-
-.bottom-news-section{
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-
-.imgs{
-	height: 100%;
-	width: 100%;
 }
 
 .top-news-container .mb-0{
@@ -40,14 +44,11 @@ body{
 	overflow: hidden;
 }
 
-.smaller-imgs{
-	height: 196px;
-	width: 100%;
-}
-
-.quote{
-	height: 96px;
-	text-align: right;
+.topnews .blockquote {
+	width: 77%;
+	max-height: 100%;
+	overflow: hidden;
+	margin: auto;
 }
 
 .quote-white{
@@ -63,15 +64,6 @@ body{
 	opacity: 0.8;
 }
 
-.quote-white-no-opacity{
-	width: 100%;
-	font-size: 12px;
-	font-weight: bold;
-	color: #a09275;
-	line-height: 1.2;
-	background-color: #ffffff;
-}
-
 .quote-brown{
 	display: grid;
 	width: 100%;
@@ -85,13 +77,6 @@ body{
 	opacity: 0.902;
 }
 
-.topnews .blockquote {
-	width: 77%;
-	max-height: 100%;
-	overflow: hidden;
-	margin: auto;
-}
-
 .date{
 	font-size: 10px;
 	display: inline-block;
@@ -100,9 +85,34 @@ body{
 	overflow: hidden;
 }
 
+/* ==========================   navbar Section   ========================== */
+
+
 .bottomnews{
+	padding-left: 0px;
+	padding-right: 0px;
 	height: auto;
 	padding: 10px;
+}
+
+.bottom-news-section{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.smaller-imgs{
+	height: 196px;
+	width: 100%;
+}
+
+.quote-white-no-opacity{
+	width: 100%;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a09275;
+	line-height: 1.2;
+	background-color: #ffffff;
 }
 
 .newsblock{
