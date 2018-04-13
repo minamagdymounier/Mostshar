@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="686dc741-a171-4dcd-8974-0fc18b121dd2" name="Default" comment="Contact-us &amp; media But not fully finished yet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/final-product/css/media.css" afterPath="$PROJECT_DIR$/final-product/css/media.css" />
-      <change beforePath="$PROJECT_DIR$/final-product/css/navbar.css" afterPath="$PROJECT_DIR$/final-product/css/navbar.css" />
-      <change beforePath="$PROJECT_DIR$/final-product/css/owl.carousel.css" afterPath="$PROJECT_DIR$/final-product/css/owl.carousel.css" />
-      <change beforePath="$PROJECT_DIR$/final-product/css/owl.theme.default.css" afterPath="$PROJECT_DIR$/final-product/css/owl.theme.default.css" />
-      <change beforePath="$PROJECT_DIR$/final-product/index.html" afterPath="$PROJECT_DIR$/final-product/index.html" />
-      <change beforePath="$PROJECT_DIR$/final-product/js/media.js" afterPath="$PROJECT_DIR$/final-product/js/media.js" />
-      <change beforePath="$PROJECT_DIR$/final-product/pages/404.html" afterPath="$PROJECT_DIR$/final-product/pages/404.html" />
-      <change beforePath="$PROJECT_DIR$/final-product/pages/bio.html" afterPath="$PROJECT_DIR$/final-product/pages/bio.html" />
-      <change beforePath="$PROJECT_DIR$/final-product/pages/contact-us.html" afterPath="$PROJECT_DIR$/final-product/pages/contact-us.html" />
-      <change beforePath="$PROJECT_DIR$/final-product/pages/news-details.html" afterPath="$PROJECT_DIR$/final-product/pages/news-details.html" />
-      <change beforePath="$PROJECT_DIR$/final-product/pages/news.html" afterPath="$PROJECT_DIR$/final-product/pages/news.html" />
-      <change beforePath="$PROJECT_DIR$/final-product/pages/search-results.html" afterPath="$PROJECT_DIR$/final-product/pages/search-results.html" />
-    </list>
+    <list default="true" id="686dc741-a171-4dcd-8974-0fc18b121dd2" name="Default" comment="Contact-us &amp; media But not fully finished yet" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -257,12 +243,12 @@
       <workItem from="1523108203990" duration="5741000" />
       <workItem from="1523127095472" duration="7092000" />
       <workItem from="1523623532520" duration="2422000" />
-      <workItem from="1523626056689" duration="2659000" />
+      <workItem from="1523626056689" duration="2932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24569000" />
+    <option name="totallyTimeSpent" value="24842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
