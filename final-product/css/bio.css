@@ -1,0 +1,34 @@
+body{
+	background-color: #ffffff;
+	font-family: 'Cairo';
+}
+
+/* ========================== Biography ================================ */
+
+.bio-header{
+	height: 54px;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 4%;
+}
+
+.content{
+	text-align: right;
+}
+
+.title{
+	margin-top: 5vh;
+	height: 17px;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 3%;
+	color: #a09275;
+}
+
+.description{
+	height: 237px;
+	overflow: hidden;
+	color: #acacac;
+}
