@@ -20,7 +20,7 @@ $('.owl-carousel').owlCarousel({
     },
     mouseDrag:false,
     dots:false,
-    navText: ["<a role='button' class='prev'><img src='assets/prev.png'/></a>","<a role='button' class='next'><img src='assets/next.png'/></a>"],
+    navText: ["<a role='button' class='prev'><img src='../img/prev.png'/></a>","<a role='button' class='next'><img src='../img/next.png'/></a>"],
     autoplay:false,
     autoplayTimeout:3000,
     autoplayHoverPause:true

@@ -3,12 +3,16 @@
     padding: 2rem 2rem 0rem 2rem;
 
 }
+body{
+    font-family: 'Cairo';
+}
 .sectionlighter{
     background-color: #ffffff;
     padding: 1.5rem;
     margin-top: 5.7rem;
 }
 .slider-item{
+    font-family: 'Cairo';
     background-color: rgba(153,142,117,0.9);
     padding: 0.75rem 0.3rem 0.3rem 0.3rem;
     display: none;
@@ -23,7 +27,7 @@
     border-radius: 1px;
 }
 .slider-font{
-    font-family: Cairo;
+    font-family: 'Cairo';
     line-height: 1;
     font-size: 10pt;
     font-weight: bold;
@@ -32,8 +36,8 @@
     text-align: right;
 }
 .slider-date-font{
+    font-family: 'Cairo';
     margin-right: 10px;
-    font-family: Cairo;
     font-size: 8pt;
     font-weight: lighter;
     color: white;
@@ -41,13 +45,11 @@
     display: block;
 }
 .loadmore{
-    font-family: "Cairo SemiBold";
     font-size: 20pt;
     color: #a09275;
     text-align: center;
 }
 .media-item-font{
-    font-family: Cairo;
     font-size: 10pt;
     font-weight: 600;
     color: #969696;
