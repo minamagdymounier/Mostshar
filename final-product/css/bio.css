@@ -32,3 +32,11 @@ body{
 	overflow: hidden;
 	color: #acacac;
 }
+
+.navbar-font{
+	font-family: "Cairo";
+}
+
+.main-navbar-font{
+	font-family: "Cairo";
+}
