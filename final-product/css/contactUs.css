@@ -19,7 +19,7 @@
     text-align: right;
 }
 .send-btn{
-    font-family: "Cairo Black";
+    font-family: "Cairo";
     font-size: 10pt;
     color: #ffffff;
     display: block;
@@ -51,7 +51,7 @@
     margin: auto;
 }
 .lg-font{
-    font-family: "Cairo SemiBold";
+    font-family: 'Cairo';
     line-height: 1;
     font-size: 18pt;
     color: #a09275;
