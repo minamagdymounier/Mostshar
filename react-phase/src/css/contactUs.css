@@ -1,0 +1,80 @@
+.sectionlight{
+    background-color: #ececec;
+    padding: 2rem;
+    margin-top: 5.7rem;
+}
+.lineshape {
+    margin-top: 25px;
+
+}
+.etsl-bna-section{
+    margin-bottom: 40px;
+}
+
+::placeholder{
+    font-family: "Cairo";
+    font-size: 9pt;
+    color: #6b6b6b;
+    display: block;
+    text-align: right;
+}
+.send-btn{
+    font-family: "Cairo";
+    font-size: 10pt;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.contact-us-contact-info{
+    padding-bottom: 11px;
+}
+.btn-primary{
+    margin: auto;
+    display: block;
+    width: 18%;
+    background-color: #a09275;
+    border: none;
+}
+.btn-primary:hover{
+    margin: auto;
+    display: block;
+    width: 18%;
+    background-color: #7e8b75;
+    border: none;
+}
+.etsl-bna-img{
+    padding-right: 0px;
+}
+.etsl-bna-img img {
+    display:block;
+    margin: auto;
+}
+.lg-font{
+    font-family: 'Cairo';
+    line-height: 1;
+    font-size: 18pt;
+    color: #a09275;
+    display: block;
+    text-align: right;
+}
+.sm-brown-font{
+    font-family: "Cairo";
+    line-height: 1;
+    font-size: 13pt;
+    color: #a09275;
+    display: block;
+    text-align: right;
+}
+.sm-grey-font{
+    font-family: "Cairo";
+    line-height: 1;
+    font-size: 13pt;
+    color: #929292;
+    display: block;
+    text-align: right;
+}
+.contact-info-section{
+    padding-right: 0px;
+    padding-bottom: 4rem;
+}

@@ -1,0 +1,236 @@
+/* ================= Constants ================= */
+body {
+	font-family: "Cairo";
+	height: 100vh!important;
+    overflow: auto!important;
+    background-image: url(..//img/slider/mosque.png);
+    background-repeat: no-repeat;
+   	background-size: 100% 100%;
+}
+
+/* ================= Navbar Section ================= */
+
+.horz-header{
+	height: 5px;
+	background-color: #a09275;
+}
+
+.icon-color-1{
+	color: #b2b2b2;
+}
+
+.icon-color-2{
+	color: #a09275;
+}
+
+.collapse .navbar-collapse .mynavbar{
+	display: flex!important;
+}
+
+.mynavbar a{
+	text-decoration: none;
+}
+
+.nav .nv-search{
+	flex: 1;
+	margin-left: 12vw;
+}
+
+.search-input{
+	text-align: right;
+	border-radius: 20px 0 0 20px!important;
+	border-right: 0;
+}
+
+.search-icon{
+    padding-left: 15px;
+	border-radius: 0 20px 20px 0!important;
+}
+
+.input-group-text{
+	margin-left: -10px;
+	border-left: 0;
+	background-color: #ffffff;
+}
+
+.navbar-section{
+	background-color: #ffffff;
+}
+
+/* ================= Error Section ================= */
+
+.error-container{
+	height: 60vh;
+	text-align: center;
+}
+
+.error-p{
+	width: 25%;
+	margin: 0 auto 6vh auto;
+	color: #8a8a8a;
+}
+
+.error-p-title{
+	font-size: 18px
+}
+
+.error-h{
+	color: #a09275;
+	font-weight: bold;
+}
+
+.error-header{
+	font-size: 300px;
+}
+
+/* ================= changes depending on screen resolutions ================= */
+
+@media all and (max-width: 320px) {
+    /* For mobile resolution: */
+    body{
+        background-size: 126% 126%;
+        width: 125vh;
+    }
+    .error-p{
+        width: 60%;
+    }
+    .error-header{
+        font-size: 140px!important;
+    }
+    .error-footer{
+        font-size: 9px!important;
+    }
+    .error-p-title{
+        font-size: 9px!important;  
+    }
+    .error-p-description{
+        font-size: 8px!important;   
+    }
+    .error-container{
+        margin-top: 10%;
+    }
+}
+
+
+
+@media all and (max-width: 375px) {
+    /* For mobile resolution: */
+    body{
+        background-size: 112% 112%;
+        width: 112vw;
+    }
+}
+
+@media all and (max-width: 480px) {
+    /* For mobile resolution align each item in a row */
+  .nv-search {
+    flex-basis: 100%!important;
+  }
+}
+
+@media all and (max-width: 630px) {
+    /* For small resolution: */
+    .nav .nv-search {
+        margin-left: 30vw;
+    }
+}
+
+@media all and (max-width: 650px) {
+    /* For small resolution: */
+    .error-header{
+        font-size: 160px!important;
+    }
+    .error-footer{
+        font-size: 10px!important;
+    }
+    .error-p-title{
+        font-size: 10px!important;  
+    }
+    .error-p-description{
+        font-size: 9px!important;   
+    }
+    .error-container{
+        margin-top: 10%;
+    } 
+}
+
+
+@media all and (max-width: 1360px) {
+    /* For medium resolution: */
+    .error-p{
+        width: 35%;
+    }
+    .error-header{
+        font-size: 230px!important;
+    }
+    .error-footer{
+        font-size: 12.2px!important;
+    }
+    .error-p-title{
+        font-size: 13.8px!important;    
+    }
+    .error-p-description{
+        font-size: 11px!important;  
+    }
+    .error-container{
+        margin-top: 4%;
+    }
+    .nav .nv-search {
+        margin-left: 12vw;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    /* For medium resolution: */
+    .error-p{
+        width: 60%;
+    }
+    .error-header{
+        font-size: 150px!important;
+    }
+    .error-footer{
+        font-size: 13px!important;
+    }
+    .error-p-title{
+        font-size: 13px!important;  
+    }
+    .error-p-description{
+        font-size: 11px!important;   
+    }
+    .error-container{
+        margin-top: 10%;
+    }    
+}
+
+@media all and (max-width: 960px) {
+    /* For medium resolution: */
+    
+    .error-header{
+        font-size: 140px!important;
+    }
+    .error-footer{
+        font-size: 12px!important;
+    }
+    .error-p-title{
+        font-size: 12px!important;  
+    }
+    .error-p-description{
+        font-size: 11px!important;   
+    }    
+}
+
+
+@media all and (min-width: 2560px) {
+    /* For large resolution: */
+    .nav .nv-search {
+        margin-left: 6vw;
+    }
+}
+
+@media all and (min-width: 2700px) {
+    /* For large resolution: */
+  .nav .nv-search {
+    margin-left: 3vw;
+  }
+}
+

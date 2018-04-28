@@ -1,0 +1,317 @@
+/*drark-gold : #a09275*/
+/*mostshar-news-background-color : #ececec*/
+/*mostshar-new-writing-color : #e8e8e8*/
+/*mostshar-new-dark-writing-color : #aaaaaa*/
+
+
+body
+{
+	font-family: Cairo, sans-serif !important;
+}
+
+.card-img-top
+{
+	width: 100% !important;
+	height: auto !important;
+}
+
+
+/*===========================between sections =========start============== */
+.line
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	border-top: 1px solid #aaaaaa;
+}
+
+
+.align-vertically-left
+{
+	height: 90px;
+	line-height: 70px;
+	text-align: center;
+}
+
+.align-vertically-right
+{
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+}
+
+.line
+{
+	border-top: 1px solid #aaaaaa;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.flex-outer
+{
+	padding: 0px 3px !important;
+	margin-left: 0px !important;
+	text-align: center !important;
+}
+
+.social-media-icons
+{
+	margin-left: 8px;
+}
+
+/*===========================between sections =========send============== */
+
+/*=========================Constant================================*/
+.bold
+{
+	font-weight: bold !important;
+}
+
+.gold
+{
+	color: #a09275 !important; 
+}
+
+.dark-grey
+{
+	color : #aaaaaa !important;
+}
+
+.light-grey
+{
+	color: #cac3b3 !important;
+}
+
+.cursor-pointer-link
+{
+	cursor: pointer !important;
+}
+
+.overflow-hidden
+{
+	overflow: hidden !important;
+}
+
+.txt-decor-hide
+{
+	text-decoration: none !important;
+}
+
+.border
+{
+	border: 1px solid #DDDDDD !important;
+	padding: 2px;
+}
+
+.font-size-17
+{
+	font-size: 17px;
+}
+
+.rtl
+{
+	text-align: right;
+}
+
+.ltr
+{
+	text-align: left;
+}
+
+.block
+{
+	display: block;
+}
+
+.center-horizontal
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+/*=========================Constant================================*/
+
+/*===========================search-section==========================*/
+.search-section
+{
+	text-align: right;
+	margin: 2% 0px;
+}
+
+
+.main-news-card
+{
+	height: 100%;
+}
+
+.news-card-main-img
+{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+}
+
+.news-card-footer
+{
+	margin: 15px 0px;
+	padding: 6px 2px;
+}
+
+.social-media-icons
+{
+	padding: 6px;
+}
+
+.mina-sub-news
+{
+	font-size: 13px;
+	font-weight: bolder;
+	max-height: 81px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.sub-news
+{
+	font-size: 13px;
+	font-weight: bolder;
+	max-height: 40px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.news-title
+{
+	max-height: 53px;
+	overflow: hidden;
+}
+
+.sub-news-row
+{
+	padding: 0px 0px 10px 0px;
+}
+
+.card-body
+{
+	overflow: hidden;
+}
+
+.search-margin
+{
+	margin: 8px 0px; 
+}
+
+..social-media-icons
+{
+	margin-left: 8px;
+}
+
+
+/*===============================Qutation start=================================*/
+
+.qoutation-section
+{
+	background-image: url("../img/mosque.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+}
+
+.qouts
+{
+	font-size: 20px;
+	text-align: right;
+	font-family: cairo;
+	color:  #aaaaaa;
+}
+
+.qouts-author
+{
+	font-size: 15px;
+	text-align: left;	
+	font-style: oblique;
+}
+
+.quots-parent
+{
+	max-height: 230px;
+	overflow: hidden;
+}
+
+.quotes-position
+{
+	padding-top: 15%;
+}
+
+/*==============================Qutation End==================================== */
+
+/*================================Footer Start=====================================*/
+.footer
+{
+	padding: 3% 0% 2% 0%;
+	background-color: #232323;
+
+}
+
+.footer-logo-parent
+{
+	padding: 10px ;
+}
+
+.footer-logo
+{
+	width: 192px;
+	height: 192px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.footer-bio , .footer-media , .footer-news
+{
+	display: block;
+	color: #aaaaaa;
+	font-size: 14px;
+	margin: 12px 0px 0px 0px;
+}
+
+a:hover, a:focus {
+	color: #aaa !important;
+}
+
+.footer-sub-menu
+{
+	margin: 6px 0px;
+}
+
+.sign-up
+{
+	background-color: rgba(35,35,35,0.5) !important;
+	font-family: cairo;
+	border: 1px solid #a09275;
+	font-size: 12px;
+}
+
+.footer form
+{
+	margin: 17px 0px;
+}
+
+.footer form button
+{
+	background-color: #a09275;
+	border-radius: 15px 0px 0px 15px;
+	border: 1px solid #a09275;
+}
+
+.footer form button:hover
+{
+	background-color: #a09275;
+}
+/*==================================Footer End=======================================*/

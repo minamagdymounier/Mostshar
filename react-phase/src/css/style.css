@@ -1,0 +1,179 @@
+/* ==========================   Constants   ========================== */
+
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #e1d0d0;
+	font-family: 'Cairo';
+}
+
+.imgs{
+	height: 100%;
+	width: 100%;
+}
+
+.quote{
+	height: 96px;
+	text-align: right;
+}
+
+/* ==========================   navbar Section   ========================== */
+
+.horz-header{
+	height: 5px;
+	background-color: #a09275;
+}
+
+.topnews{
+	position: relative;
+	height: 500px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 0.5px solid #d1d1d1;
+	box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+}
+
+.top-news-container{
+	margin-bottom: 25px;
+}
+
+.top-news-container .mb-0{
+	height: 49px;
+	overflow: hidden;
+}
+
+.topnews .blockquote {
+	width: 77%;
+	max-height: 100%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.quote-white{
+	display: grid;
+	width: 100%;
+	height: 23.5%;
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	color: #a09275;
+	line-height: 1.2;
+	background-color: #ffffff;
+	opacity: 0.8;
+}
+
+.quote-brown{
+	display: grid;
+	width: 100%;
+	height: 23.5%;
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	color: #ffffff;
+  	line-height: 1.2;
+	background-color: #a09275;
+	opacity: 0.902;
+}
+
+.date{
+	font-size: 10px;
+	display: inline-block;
+	line-height: 2.5;
+	height: 30px;
+	overflow: hidden;
+}
+
+/* ==========================   navbar Section   ========================== */
+
+
+.bottomnews{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: auto;
+	padding: 10px;
+}
+
+.bottom-news-section{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.smaller-imgs{
+	height: 196px;
+	width: 100%;
+}
+
+.quote-white-no-opacity{
+	width: 100%;
+	font-size: 12px;
+	font-weight: bold;
+	color: #a09275;
+	line-height: 1.2;
+	background-color: #ffffff;
+}
+
+.newsblock{
+	height: auto;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	border: 1px solid #d1d1d1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+}
+
+.icons{
+	padding: 0 0 0 4%;
+	text-align: left;
+}
+
+.footer-button a{
+	border: 1px solid #aaaaaa;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	text-decoration: none;
+	color : #aaaaaa !important;
+	padding: 4%
+}
+
+.icons,.footer-button a{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.icon{
+	font-size: 15px;
+	color : #aaaaaa !important;
+}
+
+.icon-link{
+	text-decoration: none;
+}
+
+.fb-link{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-right: 5%;
+}
+
+.tw-link{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.bottomnews .content{
+	margin: 0;
+	padding: 3.8% 3.8% 1.8% 3.8%;
+	height: 56px;
+	color : #aaaaaa !important;
+	overflow: hidden;
+}
+
+.news-footer{
+	width: 100%;
+	padding: 1.8% 3.8% 3.8% 3.8%;
+}
+
