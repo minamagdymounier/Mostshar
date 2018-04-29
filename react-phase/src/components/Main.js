@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './Home'
 import Bio from './Bio'
@@ -11,16 +11,20 @@ import News from './News'
 // and /schedule routes will match any pathname that starts
 // with /roster or /schedule. The / route will only match
 // when the pathname is exactly the string "/"
-const Main = () => (
-  <main>
-    <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/bio' component={Bio}/>
-      <Route path='/media' component={Media}/>
-      <Route path='/contact-us' component={ContactUs}/>
-      <Route path='/news' component={News}/>
-    </Switch>
-  </main>
-)
+class Main extends Component {
+    render() {
+        return (
+            <main>
+                <Switch>
+                    <Route exact path='/' component={Home}/>
+                    <Route path='/bio' component={Bio}/>
+                    <Route path='/media' component={Media}/>
+                    <Route path='/contact-us' component={ContactUs}/>
+                    <Route path='/news' component={News}/>
+                </Switch>
+            </main>
+        )
+    }
+}
 
-export default Main
+export default Main;

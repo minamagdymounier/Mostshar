@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-const Bio = () => (
-    <div>
-        <div>Bio</div>
-    </div>
-)
+class Bio extends Component {
+    render() {
+        return (
+            <div>
+                <div>Bio</div>
+            </div>
+        )
+    }
+}
 
 export default Bio
