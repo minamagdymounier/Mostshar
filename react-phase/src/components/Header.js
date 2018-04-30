@@ -1,5 +1,7 @@
 import React,{Component} from 'react'
 import { Link } from 'react-router-dom'
+import { findDOMNode } from 'react-dom'
+import $ from 'jquery'
 import '../css/bootstrap.min.css';
 import '../css/media.css';
 import '../css/navbar.css';
@@ -37,7 +39,7 @@ class Header extends Component{
                             </ul>
                             <ul className="nav nav-icons" >
                                 <li  className="nav-item">
-                                    <input className="searchdiv searchclass" onFocus={()=>this.OnFocus()} onBlur={()=>this.OnBlur()} type="search" placeholder="بحث" />
+                                    <input className="searchdiv searchclass" ref="myTextInput" onFocus={()=>this.handlefocus()} onBlur={()=>this.handleblur()} /*onFocus={()=>this.OnFocus()} onBlur={()=>this.OnBlur()}*/ type="search" placeholder="بحث" />
                                 </li>
                                 <li  className="nav-item search-icon">
                                     <a className="nav-link" href="#">
@@ -83,13 +85,29 @@ class Header extends Component{
             </div>
         );
     }
+    //For jquery method just uncomment search button code and comment
+    handlefocus(){
+        var el = findDOMNode(this.refs.myTextInput);
+        console.log(el);
+        $(el).removeClass("searchclass").addClass("searchclass2");
+
+
+    };
+    handleblur() {
+        var el = findDOMNode(this.refs.myTextInput);
+        console.log(el);
+        $(el).removeClass("searchclass2").addClass("searchclass");
+
+    };
     OnFocus(){
-        document.getElementsByClassName("searchdiv").item(0).classList.remove("searchclass");
-        document.getElementsByClassName("searchdiv").item(0).classList.add("searchclass2")
+        var el = findDOMNode(this.refs.myTextInput);
+        el.classList.remove("searchclass");
+        el.classList.add("searchclass2")
     }
     OnBlur(){
-        document.getElementsByClassName("searchdiv").item(0).classList.remove("searchclass2");
-        document.getElementsByClassName("searchdiv").item(0).classList.add("searchclass")
+        var el = findDOMNode(this.refs.myTextInput);
+        el.classList.remove("searchclass2");
+        el.classList.add("searchclass")
     }
 }
 export default Header;

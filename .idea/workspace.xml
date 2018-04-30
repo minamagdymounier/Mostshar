@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="686dc741-a171-4dcd-8974-0fc18b121dd2" name="Default" comment="Footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/react-phase/.gitignore" afterPath="$PROJECT_DIR$/react-phase/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/react-phase/README.md" afterPath="$PROJECT_DIR$/react-phase/README.md" />
-      <change beforePath="$PROJECT_DIR$/react-phase/package-lock.json" afterPath="$PROJECT_DIR$/react-phase/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/react-phase/package.json" afterPath="$PROJECT_DIR$/react-phase/package.json" />
-      <change beforePath="$PROJECT_DIR$/react-phase/public/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/react-phase/public/index.html" afterPath="$PROJECT_DIR$/react-phase/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/react-phase/public/manifest.json" afterPath="$PROJECT_DIR$/react-phase/public/manifest.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,9 +19,13 @@
       <file leaf-file-name="media.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/final-product/pages/media.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="640" column="4" lean-forward="false" selection-start-line="640" selection-start-column="4" selection-end-line="647" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="108" column="55" lean-forward="true" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +44,17 @@
         <entry file="file://$PROJECT_DIR$/final-product/js/navbar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="75" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="75" />
+              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final-product/js/media.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -120,7 +127,6 @@
         <option value="$PROJECT_DIR$/Pop/ElMustashar/navbar.css" />
         <option value="$PROJECT_DIR$/Pop/ElMustashar/navbar.html" />
         <option value="$PROJECT_DIR$/Pop/ElMustashar/media.html" />
-        <option value="$PROJECT_DIR$/final-product/js/media.js" />
         <option value="$PROJECT_DIR$/final-product/css/navbar.css" />
         <option value="$PROJECT_DIR$/final-product/css/media.css" />
         <option value="$PROJECT_DIR$/final-product/pages/news-details.html" />
@@ -133,6 +139,7 @@
         <option value="$PROJECT_DIR$/final-product/pages/media.html" />
         <option value="$PROJECT_DIR$/final-product/css/contactUs.css" />
         <option value="$PROJECT_DIR$/final-product/css/search-style.css" />
+        <option value="$PROJECT_DIR$/final-product/js/media.js" />
       </list>
     </option>
   </component>
@@ -163,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,6 +192,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -238,6 +245,8 @@
       <workItem from="1524882181754" duration="7444000" />
       <workItem from="1524956982923" duration="65000" />
       <workItem from="1524958797912" duration="1057000" />
+      <workItem from="1525046920557" duration="6914000" />
+      <workItem from="1525103326710" duration="7205000" />
     </task>
     <task id="LOCAL-00001" summary="Contact-us &amp; media But not fully finished yet">
       <created>1524586811937</created>
@@ -257,7 +266,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35456000" />
+    <option name="totallyTimeSpent" value="49575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -319,7 +328,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -379,13 +392,6 @@
     <entry file="file://$PROJECT_DIR$/final-product/img/next.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final-product/js/media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/final-product/css/navbar.css">
@@ -479,16 +485,28 @@
     <entry file="file://$PROJECT_DIR$/final-product/js/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="75" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="75" />
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final-product/js/media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/final-product/pages/media.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="640" column="4" lean-forward="false" selection-start-line="640" selection-start-column="4" selection-end-line="647" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="108" column="55" lean-forward="true" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
