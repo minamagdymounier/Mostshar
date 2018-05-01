@@ -9,9 +9,7 @@ class Home extends Component {
         return (
             <div>
                   <Header/>
-                  <Bio title={"title-bio.png"}/>
-
-
+                  <Bio title={"title-bio.png"} link={"/bio"}/>
             </div>
         )
     }

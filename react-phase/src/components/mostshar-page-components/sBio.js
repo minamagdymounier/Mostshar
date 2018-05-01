@@ -1,25 +1,17 @@
-import React, {Component} from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-class BioItem extends Component {
-  constructor(props){
-    super(props);
-    this.state={
-      title : "الدرجه العلميه",
-      content : "- عمل معيداً، ومدرساً مساعداً، ومدرساً، وأستاذاً مساعداً للعقيعمل معيداً، ومدرساً مساعداً، ومدرساً، وأستاذاً مساعداً للعقيد",
-      more : "المزيد"
-    }
-  }
-    render() {
+const BioItem = (props) => {
         return (
           <div className="col-lg-3 col-md-6 bio-cards text-align-right">
             <div className="card bio-card-shadow">
               <div className="card-body bio-card">
-                <h5 className="card-title gold">{this.state.title}</h5>
-                <p className="card-text font-size-17 overflow-hidden bio-card-content">{this.state.content}</p>
+                <h5 className="card-title gold">{props.title}</h5>
+                <p className="card-text font-size-17 overflow-hidden bio-card-content">{props.content}</p>
               </div>
               <div className="card-footer row bio-card-footer">
                 <div className="col-5">
-                  <small className="text-muted bold gold cursor-pointer-link">{this.state.more}</small>
+                    <Link to={props.link} className="text-muted bold gold cursor-pointer-link">{props.more}</Link>
                 </div>
                 <div className="col-7 social-icons-in-bio">
                   <span className="social-media-icons news-source">
@@ -32,8 +24,7 @@ class BioItem extends Component {
               </div>
             </div>
           </div>
-        )
-    }
+        );
 }
 
-export default BioItem
+export default BioItem;
