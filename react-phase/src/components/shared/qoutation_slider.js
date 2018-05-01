@@ -2,10 +2,6 @@ import React, {Component} from 'react'
 import Qoutation_Item from './qoutation_slider_item.js'
 
 class Qoutation extends Component {
-  constructor(props)
-  {
-    super(props);
-  }
   render() {
     return(
       <section className="qoutation-section">

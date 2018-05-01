@@ -251,7 +251,7 @@ link{
 .bio-card-footer
 {
 	padding: 6px 2px;
-	margin:0px;
+	margin: 0px 0px 8px 0px
 }
 
 .bio-section
@@ -279,6 +279,27 @@ link{
 	height: 100%;
 }
 
+.mainNewItemParent
+{
+	width: 100%;
+}
+
+.mainNewItemParentCard
+{
+	height: 100%;
+	width: 100%
+}
+
+.main-news-item-img
+{
+	height: 360px;
+}
+
+.main-news-item-title
+{
+	height: 180px;
+}
+
 .news-card-main-img
 {
 	position: absolute;
@@ -290,6 +311,16 @@ link{
 {
 	margin: 15px 0px;
 	padding: 6px 2px;
+}
+
+.sub-news-image
+{
+	height: 180px;
+}
+
+.sub-news-card
+{
+	height: 70px;
 }
 
 .social-media-icons

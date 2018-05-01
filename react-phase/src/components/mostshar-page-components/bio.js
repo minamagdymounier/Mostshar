@@ -3,10 +3,6 @@ import BioItem from './sBio.js'
 import InBetween from './inBetween.js'
 
 class Bio extends Component {
-  constructor(props)
-  {
-    super(props);
-  }
 render() {
   return(
     <main className="bio-section">
