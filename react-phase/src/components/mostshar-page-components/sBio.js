@@ -1,0 +1,39 @@
+import React, {Component} from 'react'
+
+class BioItem extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      title : "الدرجه العلميه",
+      content : "- عمل معيداً، ومدرساً مساعداً، ومدرساً، وأستاذاً مساعداً للعقيعمل معيداً، ومدرساً مساعداً، ومدرساً، وأستاذاً مساعداً للعقيد",
+      more : "المزيد"
+    }
+  }
+    render() {
+        return (
+          <div className="col-lg-3 col-md-6 bio-cards text-align-right">
+            <div className="card bio-card-shadow">
+              <div className="card-body bio-card">
+                <h5 className="card-title gold">{this.state.title}</h5>
+                <p className="card-text font-size-17 overflow-hidden bio-card-content">{this.state.content}</p>
+              </div>
+              <div className="card-footer row bio-card-footer">
+                <div className="col-5">
+                  <small className="text-muted bold gold cursor-pointer-link">{this.state.more}</small>
+                </div>
+                <div className="col-7 social-icons-in-bio">
+                  <span className="social-media-icons news-source">
+                    <i className="fab fa-twitter cursor-pointer-link"></i>
+                  </span>
+                  <span>
+                    <i className="fab fa-facebook-f cursor-pointer-link"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        )
+    }
+}
+
+export default BioItem

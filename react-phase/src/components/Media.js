@@ -149,8 +149,6 @@ class Media extends React.Component {
         $(".owl-item").find("div").find(".slider-item").css("display", "none");
         $(".owl-item").eq(current).find("img").css("opacity", "1");
         $(".owl-item").eq(current).find("div").find(".slider-item").css("display", "block");
-
-        
     }
 }
 
