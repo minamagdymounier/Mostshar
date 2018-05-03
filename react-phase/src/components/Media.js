@@ -2,11 +2,13 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import '../css/bootstrap.min.css';
 import '../css/media.css';
+import MediaRowitems from './MediaRowitems';
+import Slideritem from './SliderItem';
+import MediaPostsSection2 from './MediaPostsSection2';
 import $ from 'jquery'
 class Media extends React.Component {
     constructor(props) {
         super(props);
-
         this.state = {
             options: {
                 loop: true,
@@ -33,112 +35,72 @@ class Media extends React.Component {
                 autoplayTimeout:3000,
                 autoplayHoverPause:true
             },
-
-            items: [
-                <div  key={1} style={{maxWidth: 640,maxHeight: 288}}>
-                    <img className="card-img-top img-fluid" src={require('../images/mustashar.png')} alt="Card image cap" style={{maxWidth: "100%" ,maxHeight: "100%" }} />
-                    <div className="card-body slider-item">
-                        <div className="row">
-                            <div className="col-md-3">
-                                <img className="img-fluid" src={require('../images/Video.png')}/>
-                            </div>
-                            <div className="col-md-9">
-                                <div className="container" style={{maxHeight:"100%",overflow: "hidden",marginBottom:4}}>
-                                    <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                        <p className="slider-font" dir="rtl">قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب
-                                        </p>
-                                    </a>
-                                </div>
-                                <p className="container slider-date-font" dir="rtl">5 يوليه 2016 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>,
-                <div  key={2} style={{maxWidth: 640,maxHeight: 288}}>
-                    <img className="card-img-top img-fluid" src={require('../images/mustashar.png')} alt="Card image cap" style={{maxWidth: "100%" ,maxHeight: "100%" }} />
-                    <div className="card-body slider-item">
-                        <div className="row">
-                            <div className="col-md-3">
-                                <img className="img-fluid" src={require('../images/Video.png')}/>
-                            </div>
-                            <div className="col-md-9">
-                                <div className="container" style={{maxHeight:"100%",overflow: "hidden",marginBottom:4}}>
-                                    <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                        <p className="slider-font" dir="rtl">قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب
-                                        </p>
-                                    </a>
-                                </div>
-                                <p className="container slider-date-font" dir="rtl">5 يوليه 2016 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>,
-                <div  key={3} style={{maxWidth: 640,maxHeight: 288}}>
-                    <img className="card-img-top img-fluid" src={require('../images/mustashar.png')} alt="Card image cap" style={{maxWidth: "100%" ,maxHeight: "100%" }} />
-                    <div className="card-body slider-item">
-                        <div className="row">
-                            <div className="col-md-3">
-                                <img className="img-fluid" src={require('../images/Video.png')}/>
-                            </div>
-                            <div className="col-md-9">
-                                <div className="container" style={{maxHeight:"100%",overflow: "hidden",marginBottom:4}}>
-                                    <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                        <p className="slider-font" dir="rtl">قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب
-                                        </p>
-                                    </a>
-                                </div>
-                                <p className="container slider-date-font" dir="rtl">5 يوليه 2016 </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>,
-                <div  key={4} style={{maxWidth: 640,maxHeight: 288}}>
-                    <img className="card-img-top img-fluid" src={require('../images/mustashar.png')} alt="Card image cap" style={{maxWidth: "100%" ,maxHeight: "100%" }} />
-                    <div className="card-body slider-item">
-                        <div className="row">
-                            <div className="col-md-3">
-                                <img className="img-fluid" src={require('../images/Video.png')}/>
-                            </div>
-                            <div className="col-md-9">
-                                <div className="container" style={{maxHeight:"100%",overflow: "hidden",marginBottom:4}}>
-                                    <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
-                                        <p className="slider-font" dir="rtl">قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب
-                                        </p>
-                                    </a>
-                                </div>
-                                <p className="container slider-date-font" dir="rtl">5 يوليه 2016 </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>,
+            sliderItems: [
+                {id:1, photo: "mustashar.png", type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
+                {id:2, photo: "mustashar.png", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
+                {id:3, photo: "mustashar.png", type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
+                {id:4, photo: "mustashar.png", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"}
             ],
+            MediaItems1:[
+                {id:1, photo: "Mustashar2.png", type: 'photo', title: "كتاالبغدادي."},
+                {id:2, photo: "Mustashar2.png", type: 'video', title: "عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
+                {id:3, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة ."},
+                {id:4, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي فيركات البغدادي."},
+                {id:5, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
+                {id:6, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
+                {id:7, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
+                {id:8, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
+            ],
+
 
         };
     }
 
 
     render() {
+        let sliderItems;
+        sliderItems = this.state.sliderItems.map((item) => {
+                    const link=item.type==='video'?require('../images/Video.png'):require('../images/photo.png');
+                    const photO=require(`../images/${item.photo}`);
+                    return <Slideritem
+                        photo={photO}
+                        key={item.id}
+                        title={item.title}
+                        link={link}
+                        date={item.date} />
 
+                });
         return (
-            <div className="container sectionlighter">
-                <div className="row">
-
-                    <div className="col-md-12">
-                        <OwlCarousel
-                            ref={inst => this.slider = inst}
-                            className="owl-theme"
-                            {...this.state.options}
-                            onChanged={(property) => this.changeMiddleslide(property)}
-
-                        >
-                            {this.state.items}
-                        </OwlCarousel>
-
+            <div>
+                <div className="container sectionlighter">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <OwlCarousel
+                                ref={inst => this.slider = inst}
+                                className="owl-theme"
+                                {...this.state.options}
+                                onChanged={(property) => this.changeMiddleslide(property)}
+                            >
+                                {sliderItems}
+                            </OwlCarousel>
+                        </div>
                     </div>
-
                 </div>
+
+                <section style={{backgroundColor: "#ececec"}}>
+                    <div className="container sectionlight">
+                        <MediaRowitems
+                            Row={this.state.MediaItems1}
+                            Key={1}
+                        />
+                    </div>
+                </section>
+                {/*      slider      */}
+                <h1>ألعب باليه</h1>
+                <section style={{backgroundColor: "#ececec"}}>
+                        <MediaPostsSection2
+                        />
+                </section>
             </div>
         );
     }

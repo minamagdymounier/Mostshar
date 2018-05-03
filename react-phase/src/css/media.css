@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Cairo';
+    background-color: white !important;
 }
 .sectionlighter{
     background-color: #ffffff;
@@ -45,9 +46,18 @@ body{
     display: block;
 }
 .loadmore{
-    font-size: 20pt;
-    color: #a09275;
-    text-align: center;
+    font-size: 20pt !important;
+    color: #a09275 !important;
+    text-align: center !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+.loadmore:hover{
+    font-size: 20pt !important;
+    color:#7e8b75 !important;
+    text-align: center !important;
+    display: block !important;
+    margin: 0 auto !important;
 }
 .media-item-font{
     font-size: 10pt;
@@ -70,14 +80,14 @@ body{
 
 }
 .card-style{
-    margin-bottom: 4px;
-    background: none;
-    border: 0px;
-    width: 100%;
-    margin-right:auto ;
-    margin-left: auto;
-    display: block;
-    max-width: 18rem;
+    margin-bottom: 4px !important;
+    background: none !important;
+    border: 0px !important;
+    width: 100% !important;
+    margin-right:auto !important;
+    margin-left: auto !important;
+    display: block !important;
+    max-width: 18rem !important;
 }
 .card-text-nopadding{
     padding: 1rem 0.2rem 1.25rem 1.25rem;
@@ -111,4 +121,19 @@ body{
 .owl-carousel .owl-item img{
     width: auto!important;
 
+}
+.modalicons{
+    color:#a09275;
+    padding-right: 5px;
+}
+.modalicons:hover{
+    color:#7e8b75;
+    padding-right: 5px;
+}
+.owl-prev {
+    background: none!IMPORTANT;
+}
+
+.owl-next {
+    background: none!IMPORTANT;
 }

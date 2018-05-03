@@ -9,9 +9,9 @@ import '../css/navbar.css';
 class Header extends Component{
     render(){
         return(
-            <div className="nav-sectionlight">
+            <div className="nav-sectionlight fixed-top">
                 <div className="horz-header"></div>
-                <nav  className="navbar navbar-expand-lg ">
+                <nav  className="navbar navbar-expand-lg">
                     <div dir="rtl" className="container" style={{maxHeight: "100%"}}>
                         <Link className="nav-link" to='/'>
                             <img src={require('../images/MAbdElsalam.png')} alt={'Hello'}/></Link>
@@ -39,7 +39,7 @@ class Header extends Component{
                             </ul>
                             <ul className="nav nav-icons" >
                                 <li  className="nav-item">
-                                    <input className="searchdiv searchclass" ref="myTextInput" onFocus={()=>this.handlefocus()} onBlur={()=>this.handleblur()} /*onFocus={()=>this.OnFocus()} onBlur={()=>this.OnBlur()}*/ type="search" placeholder="بحث" />
+                                    <input className="searchdiv searchclass" ref="myTextInput" onFocus={()=>this.OnFocus()} onBlur={()=>this.OnBlur()} /*onFocus={()=>this.OnFocus()} onBlur={()=>this.OnBlur()}*/ type="search" placeholder="بحث" />
                                 </li>
                                 <li  className="nav-item search-icon">
                                     <a className="nav-link" href="#">
