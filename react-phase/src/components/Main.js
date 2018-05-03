@@ -11,6 +11,8 @@ import News from './News'
 // and /schedule routes will match any pathname that starts
 // with /roster or /schedule. The / route will only match
 // when the pathname is exactly the string "/"
+// facebook route for facebook icon links
+// twitter route for twitter icon links
 class Main extends Component {
     render() {
         return (
@@ -21,6 +23,8 @@ class Main extends Component {
                     <Route path='/media' component={Media}/>
                     <Route path='/contact-us' component={ContactUs}/>
                     <Route path='/news' component={News}/>
+                    <Route path='/facebook' component={() => window.location = 'https://www.facebook.com'}/>
+                    <Route path='/twitter' component={() => window.location = 'https://www.twitter.com'}/>
                 </Switch>
             </main>
         )
