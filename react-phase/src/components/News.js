@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import Topnews from './news-page-components/Topnews'
 import Bottomnews from './news-page-components/Bottomnews'
 import Qoutation from './shared/qoutation_slider.js'
-import '../css/bootstrap.css';
+import '../css/bootstrap.css'
 import '../css/style.css'
 
 class News extends Component{
