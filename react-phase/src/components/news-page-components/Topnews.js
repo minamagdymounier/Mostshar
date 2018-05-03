@@ -11,7 +11,7 @@ render() {
 		);
 	});
   return(
-    <div className="container-fluid top-news-container">
+    <div className="container-fluid top-news-container" style={{marginTop: "12vh"}}>
   		<div className="row">
           {topnews_post}
   		</div>

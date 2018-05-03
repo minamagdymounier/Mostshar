@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class Topnewspost extends Component {
   render() {
     const topnews_post = this.props.topnews_post;
-    console.log(topnews_post.img);
     return (
       <div className="col-md-4 col-sm-6 col-xs-12 topnews">
         <img className="imgs" src={require("../../images/"+topnews_post.img)} alt={"Topnews"} />
