@@ -5,6 +5,7 @@ import '../css/media.css';
 import MediaRowitems from './MediaRowitems';
 import Slideritem from './SliderItem';
 import MediaPostsSection2 from './MediaPostsSection2';
+import  Slideritemmodal from './sliderModalItem';
 import $ from 'jquery'
 class Media extends React.Component {
     constructor(props) {
@@ -65,13 +66,22 @@ class Media extends React.Component {
                     return <Slideritem
                         photo={photO}
                         key={item.id}
+                        id={item.id}
                         title={item.title}
                         link={link}
                         date={item.date} />
 
                 });
+        let sliderItemModals;
+        sliderItemModals = this.state.sliderItems.map((item) => {
+        return <Slideritemmodal
+        id={item.id}
+        />
+
+    });
+
         return (
-            <div>
+            <div style={{backgroundColor:"#ffffff"}}>
                 <div className="container sectionlighter">
                     <div className="row">
                         <div className="col-md-12">
@@ -101,7 +111,10 @@ class Media extends React.Component {
                         <MediaPostsSection2
                         />
                 </section>
+            <div>
+                  {sliderItemModals}
             </div>
+        </div>
         );
     }
 
