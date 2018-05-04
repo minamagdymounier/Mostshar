@@ -4,6 +4,14 @@ body
 	background-color: #ececec !important;
 }
 
+.nav-sectionlight{
+		visibility: visible !important;
+}
+
+.footer{
+	visibility: visible !important;
+}
+
 .card-img-top
 {
 	width: 100% !important;
@@ -18,7 +26,7 @@ body
 
 .gold
 {
-	color: #a09275 !important; 
+	color: #a09275 !important;
 }
 
 .dark-grey
@@ -94,7 +102,7 @@ body
 
 .social-media-icons
 {
-	
+
 }
 
 .main-news-card

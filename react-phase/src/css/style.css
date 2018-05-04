@@ -5,6 +5,14 @@ body{
 	font-family: 'Cairo' !important;
 }
 
+.nav-sectionlight{
+		visibility: visible !important;
+}
+
+.footer{
+	visibility: visible !important;
+}
+
 .imgs{
 	height: 100%;
 	width: 100%;
