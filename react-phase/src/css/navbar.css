@@ -41,8 +41,8 @@
     margin-left: 25px;
 }
 .search-icon{
-    margin-left: 4px;
-    margin-top: 6px;
+    margin-left: 4px !important;
+    margin-top: 6px !important;
 }
 .icons{
     color:#a09275;

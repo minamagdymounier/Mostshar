@@ -23,7 +23,7 @@ class NotFound extends Component{
                       <form className="form-inline">
                         <div className="input-group">
                           <div className="input-group-prepend">
-                            <a className="input-group-text search-icon" id="basic-addon1" href="#"><i className="icons fas fa-search icon-color-1"></i></a>
+                            <a className="input-group-text search-icon2" id="basic-addon1" href="#"><i className="icons fas fa-search icon-color-1"></i></a>
                           </div>
                           <input type="text" className="form-control search-input" placeholder="بحث" aria-label="Username" aria-describedby="basic-addon1" />
                         </div>

@@ -4,14 +4,6 @@ body
 	background-color: #ececec !important;
 }
 
-.nav-sectionlight{
-		visibility: visible !important;
-}
-
-.footer{
-	visibility: visible !important;
-}
-
 .card-img-top
 {
 	width: 100% !important;

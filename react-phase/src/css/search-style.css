@@ -9,14 +9,6 @@ body
 	font-family: Cairo, sans-serif !important;
 }
 
-.nav-sectionlight{
-		visibility: visible !important;
-}
-
-.footer{
-	visibility: hidden;
-}
-
 .card-img-top
 {
 	width: 100% !important;

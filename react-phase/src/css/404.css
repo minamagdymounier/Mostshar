@@ -8,14 +8,6 @@ body {
    	background-size: 100% 100%;
 }
 
-.nav-sectionlight{
-		visibility: hidden;
-}
-
-.footer{
-	visibility: hidden;
-}
-
 /* ================= Navbar Section ================= */
 
 .horz-header{
@@ -50,7 +42,7 @@ body {
 	border-right: 0;
 }
 
-.search-icon{
+.search-icon2{
 	margin: 0 !important;
   padding-left: 15px !important;
 	border-radius: 0 20px 20px 0 !important;

@@ -3,14 +3,6 @@ body{
 	font-family: 'Cairo';
 }
 
-.nav-sectionlight{
-		visibility: visible !important;
-}
-
-.footer{
-	visibility: visible !important;
-}
-
 /* ========================== Biography ================================ */
 
 .bio-header{
