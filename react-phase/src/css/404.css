@@ -9,11 +9,11 @@ body {
 }
 
 .nav-sectionlight{
-		visibility: visible !important;
+		visibility: hidden;
 }
 
 .footer{
-	visibility: visible !important;
+	visibility: hidden;
 }
 
 /* ================= Navbar Section ================= */
