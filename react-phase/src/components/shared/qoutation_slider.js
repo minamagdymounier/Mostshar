@@ -1,7 +1,26 @@
 import React, {Component} from 'react'
-import Qoutation_Item from './qoutation_slider_item.js'
+import LoadItems from './LoadSliderItems.js'
 
 class Qoutation extends Component {
+  constructor(props)
+  {
+    super(props);
+    this.state = {
+      qoutes : [
+        {
+        id:1,
+        active : "active",
+        author : "المستشار محمد",
+        content :"إن المسلمين صنعوا حضارة راقية قامت على العلم والمعرفة والتجربةإن المسلمين صنعوا راقية قامت على العلم والمعرفة والتجربةإن المسلمين صنعوا حضارة راقية قامت على العلم والمعرفة والتجربة",
+      },
+      {
+      id:2,
+      author : "المستشار محمد",
+      content :"إن المسلمين صنعوا حضارة راقية قامت على العلم والمعرفة والتجربةإن المسلمين صنعوا راقية قامت على العلم والمعرفة والتجربةإن المسلمين صنعوا حضارة راقية قامت على العلم والمعرفة والتجربة",
+    }
+      ]
+    }
+  }
   render() {
     return(
       <section className="qoutation-section">
@@ -12,12 +31,7 @@ class Qoutation extends Component {
           </div>
           <div className="col-lg-8 col-md-8 col-sm-8"  >
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-              <div className="carousel-inner">
-
-                <Qoutation_Item active={"active"} author={"المستشار محمد"} content={"إن المسلمين صنعوا حضارة راقية قامت على العلم والمعرفة والتجربةإن المسلمين صنعوا راقية قامت على العلم والمعرفة والتجربةإن المسلمين صنعوا حضارة راقية قامت على العلم والمعرفة والتجربة"}/>
-                <Qoutation_Item author={"المستشار محمد"} content={"إن المسلمين صنعوا حضارة راقية قامت على العلم والمعرفة والتجربةإن المسلمين صنعوا راقية قامت على العلم والمعرفة والتجربةإن المسلمين صنعوا حضارة راقية قامت على العلم والمعرفة والتجربة"}/>
-
-              </div>
+                  <LoadItems qoutes = {this.state.qoutes}/>
             </div>
           </div>
 
