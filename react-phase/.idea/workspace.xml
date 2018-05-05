@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="574ea345-6564-48a2-a770-326b0be829a0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUs.js" afterPath="$PROJECT_DIR$/src/components/ContactUs.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/Media.js" afterPath="$PROJECT_DIR$/src/components/Media.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +19,8 @@
       <file leaf-file-name="Media.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Media.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="106" column="56" lean-forward="true" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
+            <state relative-caret-position="204">
+              <caret line="107" column="32" lean-forward="true" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
@@ -361,7 +358,7 @@
       <workItem from="1525502046511" duration="61000" />
       <workItem from="1525523116772" duration="93000" />
       <workItem from="1525523232724" duration="22000" />
-      <workItem from="1525523284561" duration="2708000" />
+      <workItem from="1525523284561" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="Modals">
       <created>1525501849233</created>
@@ -377,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525524059427</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Contact Us and slider">
+      <created>1525526026120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525526026120</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72763000" />
+    <option name="totallyTimeSpent" value="72846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +428,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modals" />
     <MESSAGE value="Slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slider" />
+    <MESSAGE value="Contact Us and slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact Us and slider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Media.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="106" column="56" lean-forward="true" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
+        <state relative-caret-position="204">
+          <caret line="107" column="32" lean-forward="true" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
