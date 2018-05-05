@@ -1,9 +1,13 @@
-body{
-	background-color: #ffffff;
-	font-family: 'Cairo';
+/* ========================== Biography ================================ */
+
+.bio-body{
+	background-color: #ffffff !important;
 }
 
-/* ========================== Biography ================================ */
+.biography{
+	margin-top: 15vh !important;
+	margin-bottom: 5vh !important;
+}
 
 .bio-header{
 	height: 54px;

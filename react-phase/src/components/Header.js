@@ -8,6 +8,10 @@ import '../css/navbar.css';
 
 class Header extends Component{
     render(){
+      const path = window.location.pathname.slice(1);
+      if(path == "404"){          // If the path is wrong go to 404 page and dont render the Header
+        return null;
+      }
         return(
             <div className="nav-sectionlight fixed-top">
                 <div className="horz-header"></div>

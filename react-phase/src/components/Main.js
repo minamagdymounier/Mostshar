@@ -28,7 +28,7 @@ class Main extends Component {
                     <Route path='/facebook' component={() => window.location = 'https://www.facebook.com'}/>
                     <Route path='/twitter' component={() => window.location = 'https://www.twitter.com'}/>
                     <Route path="/NewDetails" component={NewDetails}/>
-                    <Route path="/404" component={NotFound} />
+                    <Route component={NotFound} />
                 </Switch>
             </main>
         )

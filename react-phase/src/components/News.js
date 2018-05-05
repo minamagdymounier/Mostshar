@@ -90,7 +90,7 @@ class News extends Component{
     render() {
       //this.setState({bottomnews_posts:this.getNewsByNumber(this.state.bottomnews_posts,2)});
         return (
-            <div>
+            <div className="news-body">
                 <Topnews  topnews_posts={this.state.topnews_posts}/>
                 <Bottomnews  bottomnews_posts={this.state.bottomnews_posts}/>
                 <Qoutation image={"human2.png"}/>

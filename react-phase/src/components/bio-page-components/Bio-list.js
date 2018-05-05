@@ -11,7 +11,7 @@ render() {
 		);
 	});
   return(
-    <div className="biography" style={{marginTop: "5vh",marginBottom: "5vh"}}>
+    <div className="biography">
       <div className="container content">
 
         <div className="row bio-header" dir="rtl">

@@ -5,6 +5,10 @@ import '../css/bootstrap.min.css';
 import '../css/mostshar-page-style.css';
 class Footer extends Component {
     render() {
+      const path = window.location.pathname.slice(1);
+      if(path == "404"){          // If the path is wrong go to 404 page and dont render the Footer
+        return null;
+      }
         return (
             <main className="footer container-fluid">
                 <section className="container">

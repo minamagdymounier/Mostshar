@@ -1,11 +1,10 @@
 /* ================= Constants ================= */
-body {
-	/* font-family: "Cairo";
-	height: 100vh!important;
-    overflow: auto!important;
-    background-image: url(../images/slider/mosque.png);
-    background-repeat: no-repeat;
-   	background-size: 100% 100%; */
+.notfound{
+	height: 100vh !important;
+	overflow: auto!important;
+	background-image: url("../images/slider/mosque.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /* ================= Navbar Section ================= */
@@ -85,6 +84,12 @@ body {
 }
 
 /* ================= changes depending on screen resolutions ================= */
+
+@media (orientation: portrait) {
+	.notfound{
+		height: 120vh !important;
+	}
+}
 
 @media all and (max-width: 320px) {
     /* For mobile resolution: */

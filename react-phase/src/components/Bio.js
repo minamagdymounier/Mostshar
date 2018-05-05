@@ -37,7 +37,7 @@ class Bio extends Component {
 
     render() {
         return (
-            <div>
+            <div className="bio-body">
                 <Biolist bio_list={this.state.biolist}/>
                 <Qoutation image={"human2.png"}/>
             </div>
