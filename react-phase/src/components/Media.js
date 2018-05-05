@@ -6,6 +6,7 @@ import MediaRowitems from './MediaRowitems';
 import Slideritem from './SliderItem';
 import MediaPostsSection2 from './MediaPostsSection2';
 import  Slideritemmodal from './sliderModalItem';
+import Qoutation from './shared/qoutation_slider.js'
 import $ from 'jquery'
 class Media extends React.Component {
     constructor(props) {
@@ -109,7 +110,7 @@ class Media extends React.Component {
                     </div>
                 </section>
                 {/*      slider      */}
-                <h1>ألعب باليه</h1>
+                <Qoutation image={"human2.png"}/>
                 <section style={{backgroundColor: "#ececec"}}>
                         <MediaPostsSection2
                         />
@@ -124,7 +125,8 @@ class Media extends React.Component {
     changeMiddleslide(property) {
         const current = property.item.index+1;
         $(".owl-item").find("img").css("opacity", "0.4");
-        $(".owl-item").find("div").find(".slider-item").css("display", "none");
+        $(".owl-item").find("div"
+        +36).find(".slider-item").css("display", "none");
         $(".owl-item").eq(current).find("img").css("opacity", "1");
         $(".owl-item").eq(current).find("div").find(".slider-item").css("display", "block");
     }
