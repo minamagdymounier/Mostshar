@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import InBetween from './inBetween.js';
-import LoadOwls from '../Loaders/LoadOwls.js'
+import InBetween from './inBetween';
+import LoadOwls from '../Loaders/LoadOwls';
 import  Slideritemmodal from '../sliderModalItem';
+import ModalLoader from '../Loaders/ModalLoader'
 
 class OwlSlider extends Component {
 
@@ -42,15 +43,6 @@ class OwlSlider extends Component {
     }
 
     render() {
-
-      const Modals = this.state.modalItems.map((modalItem) => {
-          return <Slideritemmodal
-                      id={modalItem.id}
-                      body={modalItem.body}
-                      type={modalItem.type}
-                      source={modalItem.source}/>
-                    });
-
         return (
           <section className="media-section">
               <div className="container">
@@ -59,7 +51,7 @@ class OwlSlider extends Component {
                         <LoadOwls Owls = {this.state.Owls}/>
                   </div>
               </div>
-                {Modals}
+                <ModalLoader modalItems={this.state.modalItems} />
           </section>
         )
     }

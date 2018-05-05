@@ -37,7 +37,6 @@ class NewDetails extends Component {
                     <div className="col-lg-1"></div>
                       <StickySubNewsLoader SubNews={this.state.subNews}/>
                       <MainNewsDetailsLoader MainNews={this.state.mainNews}/>
-
                     <div className="col-lg-1"></div>
   		           </div>
   	        </div>
