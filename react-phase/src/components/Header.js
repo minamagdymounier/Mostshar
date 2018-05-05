@@ -42,10 +42,10 @@ class Header extends Component{
                                     <input className="searchdiv searchclass" ref="myTextInput" onFocus={()=>this.OnFocus()} onBlur={()=>this.OnBlur()} /*onFocus={()=>this.OnFocus()} onBlur={()=>this.OnBlur()}*/ type="search" placeholder="بحث" />
                                 </li>
                                 <li  className="nav-item search-icon">
-                                    <a className="nav-link" href="#">
+                                    <Link className="nav-link" to="/NewDetails">
                                         <i className="icons fas fa-search fa-md"></i>
-
-                                        <span className="sr-only">(current)</span></a>
+                                        <span className="sr-only">(current)</span>
+                                    </Link>
                                 </li>
 
                                 <li className="nav-item naavitem">

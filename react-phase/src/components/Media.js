@@ -6,6 +6,7 @@ import MediaRowitems from './MediaRowitems';
 import Slideritem from './SliderItem';
 import MediaPostsSection2 from './MediaPostsSection2';
 import  Slideritemmodal from './sliderModalItem';
+import Qoutation from './shared/qoutation_slider.js'
 import $ from 'jquery'
 class Media extends React.Component {
     constructor(props) {
@@ -37,7 +38,7 @@ class Media extends React.Component {
                 autoplayHoverPause:true
             },
             sliderItems: [
-                {id:1, photo: "mustashar.png", type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
+                {id:1, photo: "mustashar.png", type: 'photo', title: "ال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
                 {id:2, photo: "mustashar.png", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
                 {id:3, photo: "mustashar.png", type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
                 {id:4, photo: "mustashar.png", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"}
@@ -76,6 +77,7 @@ class Media extends React.Component {
         sliderItemModals = this.state.sliderItems.map((item) => {
         return <Slideritemmodal
         id={item.id}
+        key = {item.id}
         />
 
     });
@@ -105,8 +107,7 @@ class Media extends React.Component {
                         />
                     </div>
                 </section>
-                {/*      slider      */}
-                <h1>ألعب باليه</h1>
+                <Qoutation image={"human2.png"}/>
                 <section style={{backgroundColor: "#ececec"}}>
                         <MediaPostsSection2
                         />

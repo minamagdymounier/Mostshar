@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const InBetween = (props) => {
   return(
-			<div className="row inBetween">
+			<div className="row inBetween" dir="rtl">
 				<div className="col-lg-3 col-md-12 align-vertically rtl flex-outer align-vertically-left">
 					<img src={require("../../images/"+props.title)} alt=""></img>
 				</div>

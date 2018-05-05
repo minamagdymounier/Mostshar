@@ -2,7 +2,7 @@ import React from 'react'
 
 const SubNewsItem = (props) => {
         return (
-          <div className="col-md-6">
+          <div className="col-md-6 sub-news-item">
             <div className="card">
               <img className="card-img-top sub-news-image"  src={require("../../images/"+props.image)} alt="sub news"></img>
               <div className="card-body sub-news-card">
@@ -23,9 +23,8 @@ const SubNewsItem = (props) => {
                   </span>
                 </div>
               </div>
-
             </div>
-          </div>
+            </div>
         );
 }
 
