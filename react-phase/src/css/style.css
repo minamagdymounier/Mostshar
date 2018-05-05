@@ -1,8 +1,9 @@
 /* ==========================   Constants   ========================== */
 
-body{
-	background-color: #ececec;
-	font-family: 'Cairo' !important;
+.news-body{
+	height: 100% !important;
+	background-color: #ececec !important;
+	font-family: 'Cairo';
 }
 
 .imgs{

@@ -118,9 +118,9 @@ body{
     padding: 4rem 2rem 6rem 7rem;
 
 }
-.owl-carousel .owl-item img{
-    width: auto!important;
 
+.owl-carousel .owl-item img{
+    width: auto;
 }
 .modalicons{
     color:#a09275;

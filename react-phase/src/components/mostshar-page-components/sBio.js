@@ -6,7 +6,7 @@ const BioItem = (props) => {
           <div className="col-lg-3 col-md-6 bio-cards text-align-right">
             <div className="card bio-card-shadow">
               <div className="card-body bio-card">
-                <h5 className="card-title gold">{props.title}</h5>
+                <h5 className="card-title max-title gold">{props.title}</h5>
                 <p className="card-text font-size-17 overflow-hidden bio-card-content">{props.content}</p>
               </div>
               <div className="card-footer row bio-card-footer">

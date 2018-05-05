@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainNewsItem = (props) => {
         return (
-          <div className="col-lg-6 mainNewItemParent">
+
   					<div className="card mainNewItemParentCard">
   						<img className="card-img-top main-news-item-img"  src={require("../../images/"+props.image)} alt="main news"></img>
   						<div className="card-body main-news-item-title">
@@ -26,7 +26,7 @@ const MainNewsItem = (props) => {
   						</div>
 
   					</div>
-				</div>
+				
         );
 }
 
