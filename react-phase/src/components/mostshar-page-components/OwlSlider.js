@@ -51,7 +51,7 @@ class OwlSlider extends Component {
                         <LoadOwls Owls = {this.state.Owls}/>
                   </div>
               </div>
-                <ModalLoader modalItems={this.state.modalItems} />
+              <ModalLoader modalItems={this.state.modalItems} />
           </section>
         )
     }
