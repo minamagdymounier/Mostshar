@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SubNewsItem = (props) => {
         return (
@@ -6,7 +7,9 @@ const SubNewsItem = (props) => {
             <div className="card">
               <img className="card-img-top sub-news-image"  src={require("../../images/"+props.image)} alt="sub news"></img>
               <div className="card-body sub-news-card">
-                <small className="card-title sub-news gold" >{props.title}</small>
+                <small className="card-title sub-news" >
+                  <Link to="/NewDetails" className="gold">{props.title}</Link>
+                </small>
               </div>
               <div className=" row bio-card-footer">
                 <div className="col-6">

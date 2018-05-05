@@ -6,7 +6,8 @@ import Media from './Media'
 import ContactUs from './ContactUs'
 import News from './News'
 import NotFound from './NotFound'
-import NewDetails from './NewDetails.js'
+import NewDetails from './NewDetails'
+import SearchResults from './search-results/SearchResults'
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -28,6 +29,7 @@ class Main extends Component {
                     <Route path='/facebook' component={() => window.location = 'https://www.facebook.com'}/>
                     <Route path='/twitter' component={() => window.location = 'https://www.twitter.com'}/>
                     <Route path="/NewDetails" component={NewDetails}/>
+                    <Route path="/SearchResults" component={SearchResults}/>
                     <Route component={NotFound} />
                 </Switch>
             </main>

@@ -51,6 +51,7 @@ render() {
         image = {owl.image}
         content = {owl.content}
         type = {type}
+        modal_id = {owl.modal_id}
         />
 		);
 	});

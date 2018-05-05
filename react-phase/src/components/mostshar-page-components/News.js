@@ -9,6 +9,14 @@ class News extends Component {
   {
     super(props);
     this.state = {
+      mainNews : {},
+      subNews : []
+    }
+  }
+
+  componentWillMount()
+  {
+    this.setState({
       mainNews :
         {
           id : 1,
@@ -49,8 +57,9 @@ class News extends Component {
           refrence_link : "#"
         }
       ]
-    }
+    });
   }
+
 render() {
   return(
     <main className="new-section">

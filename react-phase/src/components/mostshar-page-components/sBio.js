@@ -9,7 +9,7 @@ const BioItem = (props) => {
                 <h5 className="card-title max-title gold">{props.title}</h5>
                 <p className="card-text font-size-17 overflow-hidden bio-card-content">{props.content}</p>
               </div>
-              <div className="card-footer row bio-card-footer">
+              <div className="card-footer row bio-card-footer" style={{margin:"0px 0px 0px 0px"}}>
                 <div className="col-5">
                     <Link to={props.link} className="text-muted bold gold cursor-pointer-link">{props.more}</Link>
                 </div>

@@ -12,7 +12,7 @@ const InBetween = (props) => {
 				</div>
 				<div className="col-lg-2 col-md-12 align-vertically ltr flex-outer align-vertically-right">
 					<small>
-						<Link to={props.link}>
+						<Link to={props.link} hidden={props.isHidden}>
 							الانتقال للصفحه
 						</Link>
 					</small>

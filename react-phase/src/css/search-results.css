@@ -1,0 +1,16 @@
+.search-results-body
+{
+  padding-top:150px;
+  background-color: #fff;
+  direction: rtl;
+}
+
+.search-results-social-footer
+{
+  direction: ltr;
+}
+
+.search-results-slider
+{
+  direction: ltr;
+}

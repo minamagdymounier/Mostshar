@@ -7,6 +7,13 @@ constructor(props)
 {
   super(props);
   this.state = {
+    bios : []
+  }
+}
+
+componentWillMount()
+{
+  this.setState({
     bios : [
       {
         id      : 1,
@@ -37,7 +44,7 @@ constructor(props)
         link : "/bio"
       }
     ]
-  }
+  });
 }
 
 render() {

@@ -7,6 +7,7 @@ import Slideritem from './SliderItem';
 import MediaPostsSection2 from './MediaPostsSection2';
 import  Slideritemmodal from './sliderModalItem';
 import Qoutation from './shared/qoutation_slider.js'
+import ModalLoader from './Loaders/ModalLoader'
 import $ from 'jquery'
 class Media extends React.Component {
     constructor(props) {
@@ -73,16 +74,16 @@ class Media extends React.Component {
                         date={item.date} />
 
                 });
-        let sliderItemModals;
-        sliderItemModals = this.state.sliderItems.map((item) => {
-        return <Slideritemmodal
-        id={item.id}
-        body={item.body}
-        type={item.type}
-        source={item.source}
-        />
-
-    });
+        // let sliderItemModals;
+        // sliderItemModals = this.state.sliderItems.map((item) => {
+        // return <Slideritemmodal
+        // id={item.id}
+        // body={item.body}
+        // type={item.type}
+        // source={item.source}
+        // />
+//
+    // });
 
         return (
             <div style={{backgroundColor:"#ffffff"}}>
@@ -115,9 +116,7 @@ class Media extends React.Component {
                         <MediaPostsSection2
                         />
                 </section>
-            <div>
-                  {sliderItemModals}
-            </div>
+            <ModalLoader modalItems={this.state.sliderItems} />
         </div>
         );
     }
