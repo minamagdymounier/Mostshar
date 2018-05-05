@@ -6,18 +6,18 @@ class MediaPostsSection2 extends React.Component {
         super(props);
         this.state = {
             MediaItems2:[
-                {id:9, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:10, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:11, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:12, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:13, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:14, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:15, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:16, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:17, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:18, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:19, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:20, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
+                {id:9,  thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video',  title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:10, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:11, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:12, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:13, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:14, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:15, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:16, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:17, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسبببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببيبثصبسيبسيب"},
+                {id:18, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:19, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:20, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
             ],
             current:20
         };
@@ -48,7 +48,7 @@ class MediaPostsSection2 extends React.Component {
         const length=this.state.current+1;
         const mediAitEms=this.state.MediaItems2;
         for(let j=length;j<length+4;j++){
-            mediAitEms.push({id:j, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},)
+            mediAitEms.push({id:j, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},)
         }
         this.setState({MediaItems2:mediAitEms,current:length+4})
 

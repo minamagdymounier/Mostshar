@@ -4,7 +4,7 @@ class SliderItem extends React.Component {
         super(props);
         this.state = {
             key:props.key,
-            photo:props.photo,
+            thumbnail:props.thumbnail,
             link:props.link,
             title:props.title,
             date:props.date,
@@ -15,7 +15,7 @@ class SliderItem extends React.Component {
         return (
 
                 <div  key={this.state.key} style={{maxWidth: 640,maxHeight: 288}}>
-                    <img className="card-img-top img-fluid" src={this.state.photo} alt="Card image cap" style={{maxWidth: "100%" ,maxHeight: "100%" }} />
+                    <img className="card-img-top img-fluid" src={this.state.thumbnail} alt="Card image cap" style={{maxWidth: "100%" ,maxHeight: "100%" }} />
                     <div className="card-body slider-item">
                         <div className="row">
                             <div className="col-md-2">

@@ -37,20 +37,20 @@ class Media extends React.Component {
                 autoplayHoverPause:true
             },
             sliderItems: [
-                {id:1, photo: "mustashar.png", type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
-                {id:2, photo: "mustashar.png", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
-                {id:3, photo: "mustashar.png", type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"},
-                {id:4, photo: "mustashar.png", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", date:"5 يوليه 2016"}
+                {id:1, thumbnail: "mustashar.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", body:"بوبوبوبوبوبوبوبوبوبوبوب", date:"5 يوليه 2016"},
+                {id:2, thumbnail: "mustashar.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", body:"بوبوبوبوبوبوبوبوبوبوبوب", date:"5 يوليه 2016"},
+                {id:3, thumbnail: "mustashar.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", body:"بوبوبوبوبوبوبوبوبوبوبوب", date:"5 يوليه 2016"},
+                {id:4, thumbnail: "mustashar.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", body:"بوبوبوبوبوبوبوبوبوبوبوب", date:"5 يوليه 2016"}
             ],
             MediaItems1:[
-                {id:1, photo: "Mustashar2.png", type: 'photo', title: "كتاالبغدادي."},
-                {id:2, photo: "Mustashar2.png", type: 'video', title: "عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:3, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة ."},
-                {id:4, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي فيركات البغدادي."},
-                {id:5, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:6, photo: "Mustashar2.png", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:7, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
-                {id:8, photo: "Mustashar2.png", type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي."},
+                {id:1, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاالبغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
+                {id:2, thumbnail: "Mustashar2.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
+                {id:3, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة .",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
+                {id:4, thumbnail: "Mustashar2.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي فيركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
+                {id:5, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
+                {id:6, thumbnail: "Mustashar2.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
+                {id:7, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
+                {id:8, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
             ],
 
 
@@ -62,9 +62,9 @@ class Media extends React.Component {
         let sliderItems;
         sliderItems = this.state.sliderItems.map((item) => {
                     const link=item.type==='video'?require('../images/Video.png'):require('../images/photo.png');
-                    const photO=require(`../images/${item.photo}`);
+                    const photO=require(`../images/${item.thumbnail}`);
                     return <Slideritem
-                        photo={photO}
+                        thumbnail={photO}
                         key={item.id}
                         id={item.id}
                         title={item.title}
@@ -76,6 +76,9 @@ class Media extends React.Component {
         sliderItemModals = this.state.sliderItems.map((item) => {
         return <Slideritemmodal
         id={item.id}
+        body={item.body}
+        type={item.type}
+        source={item.source}
         />
 
     });

@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686dc741-a171-4dcd-8974-0fc18b121dd2" name="Default" comment="Footer">
+      <change beforePath="" afterPath="$PROJECT_DIR$/react-phase/.idea/codeStyles/codeStyleConfig.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/final-product/pages/media.html" afterPath="$PROJECT_DIR$/final-product/pages/media.html" />
+      <change beforePath="$PROJECT_DIR$/react-phase/.idea/workspace.xml" afterPath="$PROJECT_DIR$/react-phase/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/react-phase/src/components/Media.js" afterPath="$PROJECT_DIR$/react-phase/src/components/Media.js" />
+      <change beforePath="$PROJECT_DIR$/react-phase/src/components/MediaPostsSection2.js" afterPath="$PROJECT_DIR$/react-phase/src/components/MediaPostsSection2.js" />
+      <change beforePath="$PROJECT_DIR$/react-phase/src/components/MediaRowitems.js" afterPath="$PROJECT_DIR$/react-phase/src/components/MediaRowitems.js" />
+      <change beforePath="$PROJECT_DIR$/react-phase/src/components/Mediaitem.js" afterPath="$PROJECT_DIR$/react-phase/src/components/Mediaitem.js" />
+      <change beforePath="$PROJECT_DIR$/react-phase/src/components/SliderItem.js" afterPath="$PROJECT_DIR$/react-phase/src/components/SliderItem.js" />
+      <change beforePath="$PROJECT_DIR$/react-phase/src/components/sliderModalItem.js" afterPath="$PROJECT_DIR$/react-phase/src/components/sliderModalItem.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -166,6 +172,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/react-phase/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -190,7 +197,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,25 +207,13 @@
             <path>
               <item name="Mostshar" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mostshar" type="462c0819:PsiDirectoryNode" />
-              <item name="final-product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mostshar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mostshar" type="462c0819:PsiDirectoryNode" />
-              <item name="final-product" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mostshar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mostshar" type="462c0819:PsiDirectoryNode" />
-              <item name="final-product" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.js" type="620a8d5e:NestingTreeNode" />
+              <item name="react-phase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,6 +273,7 @@
       <workItem from="1525239180388" duration="1292000" />
       <workItem from="1525295690228" duration="5935000" />
       <workItem from="1525318338273" duration="436000" />
+      <workItem from="1525501584688" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="Contact-us &amp; media But not fully finished yet">
       <created>1524586811937</created>
@@ -298,15 +293,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67911000" />
+    <option name="totallyTimeSpent" value="68127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12445095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12225476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -320,6 +313,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
