@@ -4,7 +4,7 @@ class ContactUs extends Component {
     render() {
         return (
             <section style={{backgroundColor:"#ececec"}}>
-                <div className="container sectionlight" style={{paddingBottom:32}}>
+                <div className="container contactsectionlight" style={{paddingBottom:32}}>
                     <div className="row etsl-bna-section">
                         <div  className="col-lg-10 d-none d-lg-block lineshape">
                             <div className="container">
