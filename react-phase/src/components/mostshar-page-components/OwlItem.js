@@ -6,7 +6,7 @@ const OwlItem = (props) => {
 						<div className="card owl-card">
 							<div className="card-img-top media-card-img">
 								<img className="media-img" src={require("../../images/"+props.image)} alt="Card image cap"></img>
-								<a className="media-overlay" href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
+								<a className="media-overlay" href="#" data-toggle="modal" data-target={"#slider-"+props.modal_id}>
 									<i className={"overlay-item "+props.type}></i>
 								</a>
 							</div>

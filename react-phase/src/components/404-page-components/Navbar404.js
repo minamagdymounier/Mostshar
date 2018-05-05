@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 
 class NotFoundNavbar extends Component {
   render() {
@@ -8,9 +9,9 @@ class NotFoundNavbar extends Component {
       <section className="navbar-section">
         <nav  className="navbar navbar-expand-lg">
           <div dir="rtl" className="container">
-            <a className="navbar-brand" href="../index.html">
+            <Link to="/" className="navbar-brand">
               <img src={require("../../images/MAbdElsalam.png")} alt={"MAbdElsalam"} />
-            </a>
+            </Link>
             <button className="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <i className="fas fa-bars"></i>
             </button>
