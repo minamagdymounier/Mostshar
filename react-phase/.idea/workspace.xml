@@ -4,6 +4,7 @@
     <list default="true" id="574ea345-6564-48a2-a770-326b0be829a0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUs.js" afterPath="$PROJECT_DIR$/src/components/ContactUs.js" />
       <change beforePath="$PROJECT_DIR$/src/components/Media.js" afterPath="$PROJECT_DIR$/src/components/Media.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,10 +22,34 @@
       <file leaf-file-name="Media.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Media.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="187">
+              <caret line="106" column="56" lean-forward="true" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
+                <element signature="e#4467#4952#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactUs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ContactUs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +134,6 @@
       <find>&lt;/p</find>
       <find>style=</find>
       <find>searchdiv</find>
-      <find>style=&quot;</find>
       <find>hidden</find>
       <find>className=&quot;item card item-card&quot;</find>
       <find>background-color: #e1d0d0</find>
@@ -131,11 +155,11 @@
       <find>MediaRowitems</find>
       <find>index===1</find>
       <find>&lt;h4&gt;{this.state.source.length}&lt;/h4&gt;</find>
+      <find>style=&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
       <replace>&lt;/paragraph</replace>
-      <replace>style={{</replace>
       <replace>&quot;hidden&quot;</replace>
       <replace>this.state.props</replace>
       <replace>this.state</replace>
@@ -156,6 +180,7 @@
       <replace>,source:[&quot;Mustashar2.png&quot;,&quot;Mustashar2.png&quot;,&quot;Mustashar2.png&quot;], type: 'photo'</replace>
       <replace>index===0</replace>
       <replace>&lt;h5&gt;{this.state.source.length}&lt;/h5&gt;</replace>
+      <replace>style={{</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -168,7 +193,6 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/News.js" />
         <option value="$PROJECT_DIR$/src/components/Footer.js" />
-        <option value="$PROJECT_DIR$/src/components/ContactUs.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/../ReduxSimpleStarter2/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
@@ -184,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/components/MediaPostsSection2.js" />
         <option value="$PROJECT_DIR$/src/components/Mediaitem.js" />
         <option value="$PROJECT_DIR$/src/components/sliderModalItem.js" />
+        <option value="$PROJECT_DIR$/src/components/ContactUs.js" />
         <option value="$PROJECT_DIR$/src/components/Media.js" />
       </list>
     </option>
@@ -246,37 +271,6 @@
               <item name="react-phase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-phase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-phase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="mostshar-page-components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-phase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-phase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-phase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-phase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="Modal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-phase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-phase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="Modal" type="462c0819:PsiDirectoryNode" />
-              <item name="Photos.js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,7 +361,7 @@
       <workItem from="1525502046511" duration="61000" />
       <workItem from="1525523116772" duration="93000" />
       <workItem from="1525523232724" duration="22000" />
-      <workItem from="1525523284561" duration="750000" />
+      <workItem from="1525523284561" duration="2708000" />
     </task>
     <task id="LOCAL-00001" summary="Modals">
       <created>1525501849233</created>
@@ -376,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525501849233</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Slider">
+      <created>1525524059427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525524059427</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70805000" />
+    <option name="totallyTimeSpent" value="72763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,7 +423,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modals" />
+    <MESSAGE value="Slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,24 +433,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MediaPostsSection2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MediaRowitems.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -490,6 +474,8 @@
           <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
+            <element signature="e#4467#4952#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -543,6 +529,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
+            <element signature="e#4467#4952#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -596,6 +584,8 @@
           <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
+            <element signature="e#4467#4952#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,6 +639,8 @@
           <caret line="64" column="55" lean-forward="false" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
+            <element signature="e#4467#4952#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,6 +694,8 @@
           <caret line="64" column="55" lean-forward="false" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
+            <element signature="e#4467#4952#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -755,6 +749,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
+            <element signature="e#4467#4952#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -781,6 +777,8 @@
           <caret line="80" column="7" lean-forward="false" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
+            <element signature="e#4467#4952#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -868,12 +866,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ContactUs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Media.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="187">
+          <caret line="106" column="56" lean-forward="true" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Media#0" expanded="false" />
+            <element signature="e#4467#4952#0" expanded="false" />
           </folding>
         </state>
       </provider>
