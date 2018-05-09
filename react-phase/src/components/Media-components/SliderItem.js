@@ -3,7 +3,6 @@ class SliderItem extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            key:props.key,
             thumbnail:props.thumbnail,
             link:props.link,
             title:props.title,

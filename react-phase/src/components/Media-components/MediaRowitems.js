@@ -4,8 +4,8 @@ const MediaRowitems = ( props ) => {
     let MediaitemS;
 
     MediaitemS = props.Row.map((item) => {
-        const link=item.type==='video'?require('../images/Video.png'):require('../images/photo.png');
-        const photO=require(`../images/${item.thumbnail}`);
+        const link=item.type==='video'?require('../../images/Video.png'):require('../../images/photo.png');
+        const photO=require(`../../images/${item.thumbnail}`);
 
             return <Mediaitem
                 thumbnail={photO}
@@ -16,6 +16,9 @@ const MediaRowitems = ( props ) => {
                 title={item.title}
                 link={link}
                 id={item.id}
+                idModal={`#${item.id}`}
+                idCarousel={`#item${item.id}`}
+                idForCarousel={`item${item.id}`}
             />
     });
     return (

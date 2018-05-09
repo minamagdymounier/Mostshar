@@ -32,7 +32,7 @@ class ContactUs extends Component {
                                         <input type="text" dir="rtl" className="form-control" id="exampleFormControlInput2" placeholder="البريد الإلكتروني" />
                                     </div>
                                     <div className="form-group">
-                                        <textarea className="form-control" dir="rtl" id="exampleFormControlTextarea1" rows="4" placeholder="الرسالة"> </textarea>
+                                        <textarea className="form-control" dir="rtl" id="exampleFormControlTextarea1" rows="4" placeholder="الرسالة"></textarea>
                                     </div>
                                     <div className="container">
                                         <button type="submit" className=" btn btn-primary"><p dir="rtl" className="send-btn">إرسال</p></button>

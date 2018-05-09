@@ -1,13 +1,12 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
-import '../css/bootstrap.min.css';
-import '../css/media.css';
+import '../../css/bootstrap.min.css';
+import '../../css/media.css';
 import MediaRowitems from './MediaRowitems';
 import Slideritem from './SliderItem';
 import MediaPostsSection2 from './MediaPostsSection2';
-import  Slideritemmodal from './sliderModalItem';
-import Qoutation from './shared/qoutation_slider.js'
-import ModalLoader from './Loaders/ModalLoader'
+import Qoutation from '../shared/qoutation_slider.js'
+import ModalLoader from '../Loaders/ModalLoader'
 import $ from 'jquery'
 class Media extends React.Component {
     constructor(props) {
@@ -63,8 +62,8 @@ class Media extends React.Component {
     render() {
         let sliderItems;
         sliderItems = this.state.sliderItems.map((item) => {
-                    const link=item.type==='video'?require('../images/Video.png'):require('../images/photo.png');
-                    const photO=require(`../images/${item.thumbnail}`);
+                    const link=item.type==='video'?require('../../images/Video.png'):require('../../images/photo.png');
+                    const photO=require(`../../images/${item.thumbnail}`);
                     return <Slideritem
                         thumbnail={photO}
                         key={item.id}

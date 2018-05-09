@@ -33,7 +33,7 @@ class MediaPostsSection2 extends React.Component {
                         <div className="col-lg-3">
                         </div>
                     <div className="col-lg-6">
-                        <button dir="rtl" className="btn btn-link loadmore" onClick={()=>this.addChild()}>المزيد</button>
+                        <button dir="rtl" className="btn btn-link loadmore" onClick={()=>this.addChild.bind()}>المزيد</button>
 
                     </div>
                         <div className="col-lg-3">

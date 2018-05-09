@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import InBetween from './inBetween';
 import LoadOwls from '../Loaders/LoadOwls';
-import  Slideritemmodal from '../sliderModalItem';
+import  Slideritemmodal from '../Media-components/sliderModalItem';
 import ModalLoader from '../Loaders/ModalLoader'
 
 class OwlSlider extends Component {

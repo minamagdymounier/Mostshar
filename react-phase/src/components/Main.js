@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './Home'
 import Bio from './Bio'
-import Media from './Media'
+import MediaPage from './Media-components/MediaPage'
 import ContactUs from './ContactUs'
 import News from './News'
 import NotFound from './NotFound'
@@ -23,7 +23,7 @@ class Main extends Component {
                 <Switch>
                     <Route exact path='/' component={Home}/>
                     <Route path='/bio' component={Bio}/>
-                    <Route path='/media' component={Media}/>
+                    <Route path='/media' component={MediaPage}/>
                     <Route path='/contact-us' component={ContactUs}/>
                     <Route path='/news' component={News}/>
                     <Route path='/facebook' component={() => window.location = 'https://www.facebook.com'}/>
