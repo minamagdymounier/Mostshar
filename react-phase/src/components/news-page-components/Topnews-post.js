@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 
 class Topnewspost extends Component {
   render() {
@@ -9,7 +10,9 @@ class Topnewspost extends Component {
         <div className="quote quote-white">
           <blockquote className="blockquote">
             <p className="mb-0">
-                {topnews_post.p}
+              <Link to="/NewDetails">
+                  {topnews_post.p}
+              </Link>
             </p>
             <small className="date"> {topnews_post.date} </small>
           </blockquote>

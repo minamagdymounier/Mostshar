@@ -10,7 +10,9 @@ class Topnewspost extends Component {
           <img className="smaller-imgs" src={require("../../images/"+bottomnews_post.img)} alt={"Bottomnews"} />
           <div className="quote quote-white-no-opacity">
             <p className="content">
-              {bottomnews_post.p}
+              <Link to="/NewDetails">
+                {bottomnews_post.p}
+              </Link>
             </p>
             <div className="news-footer">
               <div className="row">
