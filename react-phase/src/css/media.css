@@ -7,6 +7,11 @@ body{
     font-family: 'Cairo';
     background-color: white !important;
 }
+
+.row .youtube-frame{
+  margin : 0;
+}
+
 .sectionlighter{
     background-color: #ffffff;
     padding: 1.5rem;

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Redirect,Switch, Route } from 'react-router-dom'
 import Home from './Home'
 import Bio from './Bio'
 import MediaPage from './Media-components/MediaPage'
@@ -18,6 +18,10 @@ import SearchResults from './search-results/SearchResults'
 // twitter route for twitter icon links
 class Main extends Component {
     render() {
+      const slash = window.location.pathname.slice(1).split('/').length-1;
+      if(slash > 1){
+        return <NotFound />
+      }
         return (
             <main>
                 <Switch>

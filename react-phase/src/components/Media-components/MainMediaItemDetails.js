@@ -19,7 +19,7 @@ const MainMediaItemDetails = (props) => {
             <div className="card-body">
                 <p className="card-text sub-news-title gold">{props.MediaPost.title}</p>
             </div>
-            <div className="row" >
+            <div className="row youtube-frame">
                     {mediasource}
             </div>
             <p className="card-text sub-news-footer-content dark-grey">{props.MediaPost.body}</p>
