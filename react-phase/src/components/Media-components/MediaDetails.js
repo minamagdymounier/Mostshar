@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import { Redirect, Route } from "react-router-dom";
 import PostNotFound from './PostNotFound';
 import MainMediaItemDetails from './MainMediaItemDetails';
 class MediaDetails extends Component {
@@ -40,7 +39,7 @@ class MediaDetails extends Component {
         const isPlayer = p => p.id === this.state.param;
         const player= this.state.MediaItems1.find(isPlayer);
         if (!player) {
-            return <Redirect to="/404" push />
+            return <PostNotFound />
         }
         return (
             <section className="news-details-body">

@@ -19,10 +19,9 @@ const MainMediaItemDetails = (props) => {
             <div className="card-body">
                 <p className="card-text sub-news-title gold">{props.MediaPost.title}</p>
             </div>
-            <div className="row youtube-frame">
+            <div className="row" style={{margin:0}}>
                     {mediasource}
             </div>
-            <p className="card-text sub-news-footer-content dark-grey">{props.MediaPost.body}</p>
             <div className="row SMSNews">
                 <div className="col-6">
                 <span className="sNewsSocial">
@@ -35,6 +34,7 @@ const MainMediaItemDetails = (props) => {
                 <div className="col-6 text-center">
                 </div>
             </div>
+            <p className="card-text sub-news-footer-content dark-grey">{props.MediaPost.body}</p>
         </div>
     )
 }
