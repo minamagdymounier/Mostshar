@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
+import ItemPhotoCarousel from './ItemPhotoCarousel'
 class PhotoModalBody extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             body:props.body,
-            type:props.type,
             source:props.source,
             id:props.id,
             idCarousel:props.idCarousel,
@@ -17,19 +17,6 @@ class PhotoModalBody extends React.Component {
         }
     }
     render() {
-        const photoCarousel=this.state.source.map((item,index) => {
-            const photO=require(`../../images/${item}`);
-            if(index===0){
-                return( <div  className="carousel-item active">
-                    <img className="d-block w-100" src={photO}  alt={`${index}'s Slide`} />
-                </div>)
-            }
-            return ( <div  className="carousel-item">
-                <img className="d-block w-100" src={photO}  alt={`${index}'s Slide`} />
-            </div>)
-
-        });
-
 
         return (
             <div className="row">
@@ -56,19 +43,7 @@ class PhotoModalBody extends React.Component {
                     </div>
                 </div>
                 <div className="col-lg-8">
-                    <div id={this.state.idForCarousel} className="carousel slide" data-ride="carousel">
-                        <div className="carousel-inner">
-                            {photoCarousel}
-                        </div>
-                        <a className="carousel-control-prev" href={this.state.idCarousel} role="button" data-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"> </span>
-                            <span className="sr-only">Previous</span>
-                        </a>
-                        <a className="carousel-control-next" href={this.state.idCarousel} role="button" data-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"> </span>
-                            <span className="sr-only">Next</span>
-                        </a>
-                    </div>
+                    <ItemPhotoCarousel MediaPostwzCarousel={this.state} />
                 </div>
 
             </div>
