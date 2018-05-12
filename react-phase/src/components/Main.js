@@ -25,7 +25,7 @@ class Main extends Component {
                     <Route exact path='/bio' component={Bio}/>
                     <Route path='/media' component={MediaPage}/>
                     <Route exact path='/contact-us' component={ContactUs}/>
-                    <Route exact path='/news' component={News}/>
+                    <Route path='/news' component={News}/>
                     <Route path='/facebook' component={() => window.location = 'https://www.facebook.com'}/>
                     <Route path='/twitter' component={() => window.location = 'https://www.twitter.com'}/>
                     <Route exact path="/NewDetails" component={NewDetails}/>
