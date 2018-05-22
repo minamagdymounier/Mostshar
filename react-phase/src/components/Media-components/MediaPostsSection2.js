@@ -6,7 +6,7 @@ class MediaPostsSection2 extends React.Component {
         super(props);
         this.state = {
             MediaItems2:[
-                {id:13,  thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video',  title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
+                {id:13, thumbnail:"Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video',  title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
                 {id:14, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
                 {id:15, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
                 {id:16, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
@@ -33,7 +33,7 @@ class MediaPostsSection2 extends React.Component {
                         <div className="col-lg-3">
                         </div>
                     <div className="col-lg-6">
-                        <button dir="rtl" className="btn btn-link loadmore" onClick={()=>this.addChild.bind()}>المزيد</button>
+                        <button dir="rtl" className="btn btn-link loadmore" onClick={()=>this.addChild()}>المزيد</button>
 
                     </div>
                         <div className="col-lg-3">
@@ -45,6 +45,7 @@ class MediaPostsSection2 extends React.Component {
     }
 
     addChild() {
+        console.log("pop");
         const length=this.state.current+1;
         const mediAitEms=this.state.MediaItems2;
         for(let j=length;j<length+4;j++){
