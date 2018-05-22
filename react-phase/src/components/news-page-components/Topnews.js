@@ -3,7 +3,8 @@ import Topnewspost from './Topnews-post'
 
 class Topnews extends Component {
 render() {
-  const topnews_post = this.props.topnews_posts.map((post) => {
+  const topnews_posts = this.props.topnews_posts.slice(0,3);
+  const topnews_post = topnews_posts.map((post) => {
 		return(
 			<Topnewspost
 			 key={post.id}

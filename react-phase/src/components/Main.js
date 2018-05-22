@@ -22,14 +22,14 @@ class Main extends Component {
             <main>
                 <Switch>
                     <Route exact path='/' component={Home}/>
-                    <Route path='/bio' component={Bio}/>
+                    <Route exact path='/bio' component={Bio}/>
                     <Route path='/media' component={MediaPage}/>
-                    <Route path='/contact-us' component={ContactUs}/>
+                    <Route exact path='/contact-us' component={ContactUs}/>
                     <Route path='/news' component={News}/>
                     <Route path='/facebook' component={() => window.location = 'https://www.facebook.com'}/>
                     <Route path='/twitter' component={() => window.location = 'https://www.twitter.com'}/>
-                    <Route path="/NewDetails" component={NewDetails}/>
-                    <Route path="/SearchResults" component={SearchResults}/>
+                    <Route exact path="/NewDetails" component={NewDetails}/>
+                    <Route exact path="/SearchResults" component={SearchResults}/>
                     <Route component={NotFound} />
                 </Switch>
             </main>

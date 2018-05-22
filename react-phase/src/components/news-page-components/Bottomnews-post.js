@@ -1,16 +1,19 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom'
 
-class Topnewspost extends Component {
+class Bottomnewspost extends Component {
   render() {
     const bottomnews_post = this.props.bottomnews_post;
+    const link = "/news/1";
     return (
       <div className="col-lg-3 col-md-4 col-sm-6 bottomnews">
         <div className="newsblock">
           <img className="smaller-imgs" src={require("../../images/"+bottomnews_post.img)} alt={"Bottomnews"} />
           <div className="quote quote-white-no-opacity">
             <p className="content">
-              {bottomnews_post.p}
+              <Link to={link}>
+                {bottomnews_post.p}
+              </Link>
             </p>
             <div className="news-footer">
               <div className="row">
@@ -37,4 +40,4 @@ class Topnewspost extends Component {
   }
 }
 
-export default Topnewspost;
+export default Bottomnewspost;
