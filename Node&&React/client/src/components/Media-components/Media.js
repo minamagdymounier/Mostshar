@@ -37,34 +37,34 @@ class Media extends React.Component {
                 autoplayTimeout:3000,
                 autoplayHoverPause:true
             },
-            sliderItems: [
-                {id:1, thumbnail: "mustashar.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", body:"بوبوبوبوبوبوبوبوبوبوبوب", date:"5 يوليه 2016"},
-                {id:2, thumbnail: "mustashar.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", body:"بوبوبوبوبوبوبوبوبوبوبوب", date:"5 يوليه 2016"},
-                {id:3, thumbnail: "mustashar.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", body:"بوبوبوبوبوبوبوبوبوبوبوب", date:"5 يوليه 2016"},
-                {id:4, thumbnail: "mustashar.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "قال فضيلة الإمام الأكبر: إن القرآن الكريم استعمل منذ البداية أسلوب الحوار مع الشباب", body:"بوبوبوبوبوبوبوبوبوبوبوب", date:"5 يوليه 2016"}
+            sliderItems: [],
+            MediaItems1:[],
+            sliders:[
+                {"id":1, "thumbnail": "mustashar.png","source":["Mustashar2.png","Mustashar2.png","Mustashar2.png"], "type": "photo", "title": "مصطفى", "body":"بوبوبوبوبوبوبوبوبوبوبوب", "date":"5 يوليه 2016"},
+                {"id":2, "thumbnail": "mustashar.png","source":"https://www.youtube.com/embed/AMrgBrcFefw", "type": "video", "title": "محمد", "body":"بوبوبوبوبوبوبوبوبوبوبوب", "date":"5 يوليه 2016"},
+                {"id":3, "thumbnail": "mustashar.png","source":["Mustashar2.png","Mustashar2.png","Mustashar2.png"], "type": "photo", "title": "محمود", "body":"بوبوبوبوبوبوبوبوبوبوبوب", "date":"5 يوليه 2016"},
+                {"id":4, "thumbnail": "mustashar.png","source":"https://www.youtube.com/embed/AMrgBrcFefw", "type": "video", "title": "السيد", "body":"بوبوبوبوبوبوبوبوبوبوبوب", "date":"5 يوليه 2016"}
             ],
-            MediaItems1:[
-                {id:5, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاالبغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
-                {id:6, thumbnail: "Mustashar2.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
-                {id:7, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة .",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
-                {id:8, thumbnail: "Mustashar2.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي فيركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
-                {id:9, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
-                {id:10, thumbnail: "Mustashar2.png",source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
-                {id:11, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
-                {id:12, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"فففقفققفقفقفقفقفقفقفقفقفقفقفقفقفقفقفقف"},
-            ],
+            canrender:false,
 
 
         };
     }
     componentDidMount() {
-        this.callApi()
-            .then(res => console.log(res.Hello))
-            .catch(err => console.log(err));
+        this.getSliderPosts().then(res => this.setState({sliderItems:res.Posts})).catch(err => console.log(err));
+        this.getMediaPosts(0,4).then(res => this.setState({MediaItems1:res.Posts})).catch(err => console.log(err));
     }
 
-    callApi = async () => {
-        const response = await fetch('/api/media/mediaposts');
+    getSliderPosts = async () => {
+        const response = await fetch('/api/media/sliderItems');
+        const body = await response.json();
+
+        if (response.status !== 200) throw Error(body.message);
+
+        return body;
+    };
+    getMediaPosts = async (beg,end) => {
+        const response = await fetch(`/api/media/mediaItems?beg=${beg}&end=${end}`);
         const body = await response.json();
 
         if (response.status !== 200) throw Error(body.message);
@@ -77,18 +77,23 @@ class Media extends React.Component {
 
     render() {
         let sliderItems;
-        sliderItems = this.state.sliderItems.map((item) => {
-                    const link=item.type==='video'?require('../../images/Video.png'):require('../../images/photo.png');
-                    const photO=require(`../../images/${item.thumbnail}`);
-                    return <Slideritem
-                        thumbnail={photO}
-                        key={item.id}
-                        id={item.id}
-                        title={item.title}
-                        link={link}
-                        date={item.date} />
 
-                });
+            console.log(this.state.sliderItems);
+            console.log(this.state.sliders);
+            sliderItems = this.state.sliderItems.map((item) => {
+                const link=item.type==='video'?require('../../images/Video.png'):require('../../images/photo.png');
+                const photO=require(`../../images/${item.thumbnail}`);
+                return <Slideritem
+                    thumbnail={photO}
+                    key={item.id}
+                    id={item.id}
+                    title={item.title}
+                    link={link}
+                    date={item.date} />
+
+            });
+
+
         // let sliderItemModals;
         // sliderItemModals = this.state.sliderItems.map((item) => {
         // return <Slideritemmodal
@@ -101,18 +106,20 @@ class Media extends React.Component {
     // });
 
         return (
+
             <div style={{backgroundColor:"#ffffff"}}>
                 <div className="container sectionlighter">
                     <div className="row">
                         <div className="col-md-12">
-                            <OwlCarousel
+                            {this.state.sliderItems.length!=0?<OwlCarousel
                                 ref={inst => this.slider = inst}
                                 className="owl-theme"
                                 {...this.state.options}
                                 onChanged={(property) => this.changeMiddleslide(property)}
                             >
                                 {sliderItems}
-                            </OwlCarousel>
+                            </OwlCarousel>:<h1>Loading</h1>}
+
                         </div>
                     </div>
                 </div>
@@ -128,12 +135,15 @@ class Media extends React.Component {
                 {/*      slider      */}
                 <Qoutation image={"human2.png"}/>
                 <section style={{backgroundColor: "#ececec"}}>
-                        <MediaPostsSection2
-                        />
+                    {this.state.MediaItems1.length!=0?<MediaPostsSection2
+                        current={this.state.MediaItems1.length}
+                    />:<h1>Loading</h1>}
+
                 </section>
             <ModalLoader modalItems={this.state.sliderItems} />
         </div>
         );
+
     }
 
     changeMiddleslide(property) {

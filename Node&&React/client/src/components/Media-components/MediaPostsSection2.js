@@ -5,25 +5,26 @@ class MediaPostsSection2 extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            MediaItems2:[
-                {id:13,  thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video',  title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:14, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:15, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:16, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:17, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:18, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:19, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:20, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:21, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسبببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببببيبثصبسيبسيب"},
-                {id:22, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:23, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-                {id:24, thumbnail: "Mustashar2.png", source:"https://www.youtube.com/embed/AMrgBrcFefw", type: 'video', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},
-            ],
-            current:20
+            MediaItems2:[],
+            current:props.current
         };
     }
-    render() {
+    componentDidMount() {
+        this.getMediaPosts(this.state.current,this.state.current+4)
+            .then(res => {this.setState({MediaItems2:res.Posts});this.setState({current:this.state.current+res.Posts.length});})
+            .catch(err => console.log(err));
+    }
+    getMediaPosts = async (beg,end) => {
+        const response = await fetch(`/api/media/mediaItems?beg=${beg}&end=${end}`);
+        const body = await response.json();
 
+        if (response.status !== 200) throw Error(body.message);
+
+        return body;
+    };
+
+    render() {
+        console.log(this.state.MediaItems2.length);
         return (
             <div className="container sectionlight">
                 {
@@ -45,12 +46,11 @@ class MediaPostsSection2 extends React.Component {
     }
 
     addChild() {
-        const length=this.state.current+1;
+        console.log(this.state.current);
         const mediAitEms=this.state.MediaItems2;
-        for(let j=length;j<length+4;j++){
-            mediAitEms.push({id:j, thumbnail: "Mustashar2.png",source:["Mustashar2.png","Mustashar2.png","Mustashar2.png"], type: 'photo', title: "كتاب يحكي عن الجانب النقدي في فلسفة أبي البركات البغدادي.",body:"بوبوبوبوبوبوبوبوبوبوبوبقثسيبسيبسيبسثصقسيبثصبسيبسيب"},)
-        }
-        this.setState({MediaItems2:mediAitEms,current:length+4})
+        this.getMediaPosts(this.state.current,this.state.current+4)
+            .then(res => {this.setState({ MediaItems2: [...this.state.MediaItems2, ...res.Posts ] });this.setState({current:this.state.current+res.Posts.length});})
+            .catch(err => console.log(err));
 
     }
 }

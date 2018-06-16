@@ -14,7 +14,7 @@ const MainMediaItemDetails = (props) => {
         </div>
     }
     return (
-        <div className="card sub-news-card-p">
+        <div className="col-lg-10 card sub-news-card-p">
             <img className="card-img-top" src={require(`../../images/${props.MediaPost.thumbnail}`)} alt="Card image cap"/>
             <div className="card-body">
                 <p className="card-text sub-news-title gold">{props.MediaPost.title}</p>
